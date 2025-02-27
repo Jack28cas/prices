@@ -43,10 +43,7 @@ ultimo_precio_venta_blue = None
 # Función para obtener los precios desde la API de Fiwind
 def obtener_precio_fiwind():
     try:
-        # Forzar IPv4
-        session.headers.update({'Host': 'criptoya.com'})
-        url = "http://168.181.186.118/api/fiwind/USDT/ARS/0.1"  # IP directa de criptoya.com
-        
+        url = "https://criptoya.com/api/fiwind/USDT/ARS/0.1"
         response = session.get(url, timeout=30)
         
         if response.status_code == 200:
@@ -66,10 +63,7 @@ def obtener_precio_fiwind():
 # Función para obtener los precios del dólar blue
 def obtener_precio_blue():
     try:
-        # Forzar IPv4
-        session.headers.update({'Host': 'criptoya.com'})
-        url = "http://168.181.186.118/api/dolar"  # IP directa de criptoya.com
-        
+        url = "https://criptoya.com/api/dolar"
         response = session.get(url, timeout=30)
         
         if response.status_code == 200:
