@@ -20,3 +20,30 @@
 2025-07-19 15:59:51,684 - INFO - Blue DolarAPI - Compra: 1285.0, Venta: 1305.0
 2025-07-19 15:59:51,685 - INFO - DÓLAR BLUE COTIBOT - Compra: 1285, Venta: 1305
 2025-07-19 15:59:51,685 - INFO - Detalles - Blue+Oficial: 1279.25/1305.2, Blue+USDT+CCB: 1288.43/1306.94
+2025-07-21 12:47:39,978 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
+2025-07-21 12:47:40,183 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
+2025-07-21 12:47:40,183 - INFO - CCB Criptoya - Compra: 1299.069, Venta: 1307.616
+2025-07-21 12:47:40,524 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
+2025-07-21 12:47:40,524 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
+2025-07-21 12:47:40,643 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:23:29,257 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
+2025-07-21 13:23:29,454 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:23:29,454 - INFO - CCB Criptoya - Compra: 1299.401, Venta: 1307.095
+2025-07-21 13:23:29,836 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:23:29,836 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
+2025-07-21 13:23:30,043 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:23:48,149 - WARNING - Patrón Blue 1 encontró precios iguales: $1305.0
+2025-07-21 13:29:36,200 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
+2025-07-21 13:29:36,410 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:29:36,410 - INFO - CCB Criptoya - Compra: 1299.431, Venta: 1306.514
+2025-07-21 13:29:37,125 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:29:37,126 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
+2025-07-21 13:29:37,375 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:29:54,501 - WARNING - Patrón Blue 1 encontró precios iguales: $1305.0
+2025-07-21 13:56:02,332 - INFO - USDT Fiwind - Compra: 1297.0, Venta: 1310.0
+2025-07-21 13:56:02,641 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:56:02,641 - INFO - CCB Criptoya - Compra: 1296.329, Venta: 1305.826
+2025-07-21 13:56:03,461 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
+2025-07-21 13:56:03,461 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
+2025-07-21 13:56:03,641 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 13:56:21,178 - WARNING - Patrón Blue 1 encontró precios iguales: $1305.0

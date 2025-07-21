@@ -172,28 +172,50 @@ def obtener_precio_infodolar():
     try:
         logging.info("🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...")
         
-        # Configuración optimizada de Chrome
+        # Configuración optimizada de Chrome para SERVIDOR LINUX
         chrome_options = Options()
-        chrome_options.add_argument("--headless")  # Sin ventana para producción
+        chrome_options.add_argument("--headless=new")  # Nueva versión headless
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--disable-software-rasterizer")
+        chrome_options.add_argument("--disable-background-timer-throttling")
+        chrome_options.add_argument("--disable-backgrounding-occluded-windows")
+        chrome_options.add_argument("--disable-renderer-backgrounding")
+        chrome_options.add_argument("--disable-features=TranslateUI")
+        chrome_options.add_argument("--disable-ipc-flooding-protection")
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
         chrome_options.add_argument("--disable-images")  # Más rápido
         chrome_options.add_argument("--disable-javascript")  # Inicialmente
+        chrome_options.add_argument("--remote-debugging-port=9222")  # Para debugging
+        chrome_options.add_argument("--window-size=1920,1080")  # Tamaño fijo
         
-        # Inicializar driver
+        # Inicializar driver con timeouts más cortos
         driver = webdriver.Chrome(options=chrome_options)
+        driver.set_page_load_timeout(30)  # Timeout más corto
+        driver.implicitly_wait(10)
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         
-        # Cargar InfoDolar
-        driver.get("https://www.infodolar.com/cotizacion-dolar-blue.aspx")
-        time.sleep(3)  # Espera inicial
-        
-        # Recargar con JavaScript habilitado
-        driver.execute_script("window.location.reload();")
-        time.sleep(5)  # Esperar carga de JavaScript
+        # Cargar InfoDolar con retry
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                logging.info(f"🌐 Intento {attempt + 1}/{max_retries} - Cargando InfoDolar...")
+                driver.get("https://www.infodolar.com/cotizacion-dolar-blue.aspx")
+                time.sleep(2)  # Espera más corta
+                
+                # Recargar con JavaScript habilitado
+                driver.execute_script("window.location.reload();")
+                time.sleep(3)  # Espera más corta
+                break
+                
+            except Exception as e:
+                logging.warning(f"⚠️ Intento {attempt + 1} falló: {str(e)}")
+                if attempt == max_retries - 1:
+                    raise
+                time.sleep(2)
         
         # Obtener HTML y buscar AMBOS precios
         page_source = driver.page_source
@@ -203,7 +225,8 @@ def obtener_precio_infodolar():
         return cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta
     
     except Exception as e:
-        logging.error(f"Error al obtener precios InfoDolar: {str(e)}")
+        logging.error(f"❌ Error al obtener precios InfoDolar: {str(e)}")
+        logging.info("🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes")
         return None, None, None, None
     
     finally:
