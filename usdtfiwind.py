@@ -7,6 +7,13 @@ import logging
 from datetime import datetime
 import socket
 
+# === 🔥 NUEVAS IMPORTACIONES PARA INFODOLAR ===
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+import re
+
 # Configurar logging
 logging.basicConfig(
     level=logging.INFO,
@@ -156,6 +163,240 @@ def obtener_precio_dolarapi():
         logging.error(f"Error al obtener precio DolarAPI: {str(e)}")
         return None, None
 
+# === 🔥 NUEVA FUNCIÓN: INFODOLAR CON SELENIUM (CÓRDOBA + BLUE GENERAL) ===
+def obtener_precio_infodolar():
+    """
+    Obtiene precios de InfoDolar: Córdoba específica Y Dólar Blue general
+    """
+    driver = None
+    try:
+        logging.info("🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...")
+        
+        # Configuración optimizada de Chrome
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")  # Sin ventana para producción
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        chrome_options.add_experimental_option('useAutomationExtension', False)
+        chrome_options.add_argument("--disable-images")  # Más rápido
+        chrome_options.add_argument("--disable-javascript")  # Inicialmente
+        
+        # Inicializar driver
+        driver = webdriver.Chrome(options=chrome_options)
+        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        
+        # Cargar InfoDolar
+        driver.get("https://www.infodolar.com/cotizacion-dolar-blue.aspx")
+        time.sleep(3)  # Espera inicial
+        
+        # Recargar con JavaScript habilitado
+        driver.execute_script("window.location.reload();")
+        time.sleep(5)  # Esperar carga de JavaScript
+        
+        # Obtener HTML y buscar AMBOS precios
+        page_source = driver.page_source
+        cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta, promedio_compra, promedio_venta = _extraer_precios_completos_infodolar(page_source)
+        
+        # Retornar AMBOS precios por separado
+        return cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta
+    
+    except Exception as e:
+        logging.error(f"Error al obtener precios InfoDolar: {str(e)}")
+        return None, None, None, None
+    
+    finally:
+        if driver:
+            try:
+                driver.quit()
+            except:
+                pass
+
+def _extraer_precios_completos_infodolar(html_content):
+    """
+    Extrae AMBOS precios de InfoDolar: Córdoba específica Y Dólar Blue general
+    """
+    cordoba_compra = None
+    cordoba_venta = None
+    blue_general_compra = None
+    blue_general_venta = None
+    
+    try:
+        logging.info("🔍 Buscando Córdoba específica Y Dólar Blue InfoDolar general...")
+        
+        # === 🗺️ EXTRAER CÓRDOBA ESPECÍFICA ===
+        cordoba_contexts = []
+        for match in re.finditer(r'.{0,200}Córdoba.{0,200}', html_content, re.IGNORECASE | re.DOTALL):
+            context = match.group(0)
+            cordoba_contexts.append(context)
+        
+        logging.info(f"🗺️ Contextos de Córdoba encontrados: {len(cordoba_contexts)}")
+        
+        # Buscar precios en contextos de Córdoba
+        for i, context in enumerate(cordoba_contexts, 1):
+            precios_en_contexto = []
+            
+            price_patterns = [
+                r'\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+                r'([1-2]\.?\d{3}[,.]?\d{0,2})',
+                r'>([1-2]\.?\d{3}[,.]?\d{0,2})<',
+            ]
+            
+            for pattern in price_patterns:
+                matches = re.findall(pattern, context, re.IGNORECASE)
+                for match in matches:
+                    precio = _limpiar_precio_infodolar(match)
+                    if precio and 1200 <= precio <= 1400:
+                        precios_en_contexto.append(precio)
+            
+            precios_en_contexto = sorted(list(set(precios_en_contexto)))
+            
+            if len(precios_en_contexto) >= 2:
+                cordoba_compra = min(precios_en_contexto)
+                cordoba_venta = max(precios_en_contexto)
+                logging.info(f"🗺️ Córdoba encontrada - Compra: ${cordoba_compra}, Venta: ${cordoba_venta}")
+                break
+        
+        # Si no encontramos Córdoba por contexto, usar patrones globales
+        if not (cordoba_compra and cordoba_venta):
+            patterns_cordoba = [
+                r'<td[^>]*>.*?Córdoba.*?</td>.*?<td[^>]*>.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?</td>.*?<td[^>]*>.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?</td>',
+                r'Córdoba.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+            ]
+            
+            for i, pattern in enumerate(patterns_cordoba, 1):
+                cordoba_match = re.search(pattern, html_content, re.IGNORECASE | re.DOTALL)
+                
+                if cordoba_match:
+                    try:
+                        precio1_str = cordoba_match.group(1)
+                        precio2_str = cordoba_match.group(2)
+                        
+                        precio1 = _limpiar_precio_infodolar(precio1_str)
+                        precio2 = _limpiar_precio_infodolar(precio2_str)
+                        
+                        if precio1 and precio2 and 1200 <= precio1 <= 1400 and 1200 <= precio2 <= 1400:
+                            if precio1 != precio2:
+                                cordoba_compra = min(precio1, precio2)
+                                cordoba_venta = max(precio1, precio2)
+                                logging.info(f"🗺️ Córdoba extraída con patrón {i} - Compra: ${cordoba_compra}, Venta: ${cordoba_venta}")
+                                break
+                    
+                    except (ValueError, AttributeError) as e:
+                        continue
+        
+        # === 💙 EXTRAER DÓLAR BLUE INFODOLAR GENERAL ===
+        logging.info("💙 Buscando Dólar Blue InfoDolar general...")
+        
+        # Patrones para encontrar el precio general de InfoDolar
+        blue_general_patterns = [
+            # Buscar "Dólar Blue InfoDolar" específicamente
+            r'Dólar Blue InfoDolar.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+            
+            # Buscar en tabla con "InfoDolar"
+            r'<td[^>]*>.*?InfoDolar.*?</td>.*?<td[^>]*>.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?</td>.*?<td[^>]*>.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?</td>',
+            
+            # Buscar contexto más general con InfoDolar
+            r'InfoDolar.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+            
+            # Buscar en títulos o headers
+            r'(?i)<h[1-6][^>]*>.*?blue.*?infodolar.*?</h[1-6]>.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+        ]
+        
+        for i, pattern in enumerate(blue_general_patterns, 1):
+            blue_match = re.search(pattern, html_content, re.IGNORECASE | re.DOTALL)
+            
+            if blue_match:
+                try:
+                    precio1_str = blue_match.group(1)
+                    precio2_str = blue_match.group(2)
+                    
+                    precio1 = _limpiar_precio_infodolar(precio1_str)
+                    precio2 = _limpiar_precio_infodolar(precio2_str)
+                    
+                    if precio1 and precio2 and 1200 <= precio1 <= 1400 and 1200 <= precio2 <= 1400:
+                        if precio1 != precio2:
+                            blue_general_compra = min(precio1, precio2)
+                            blue_general_venta = max(precio1, precio2)
+                            logging.info(f"💙 Blue InfoDolar general extraído con patrón {i} - Compra: ${blue_general_compra}, Venta: ${blue_general_venta}")
+                            break
+                        else:
+                            logging.warning(f"Patrón Blue {i} encontró precios iguales: ${precio1}")
+                
+                except (ValueError, AttributeError) as e:
+                    logging.warning(f"Error procesando Blue general con patrón {i}: {str(e)}")
+                    continue
+        
+        # === 📊 EXTRAER PROMEDIO GENERAL COMO BACKUP ===
+        todos_los_precios = _extraer_todos_precios_infodolar(html_content)
+        
+        promedio_compra = None
+        promedio_venta = None
+        
+        if len(todos_los_precios) >= 2:
+            promedio_compra = min(todos_los_precios)
+            promedio_venta = max(todos_los_precios)
+        
+        # === 📋 RESUMEN DE EXTRACCIÓN ===
+        logging.info("📋 RESUMEN InfoDolar:")
+        logging.info(f"   🗺️ Córdoba: ${cordoba_compra}/{cordoba_venta} {'✅' if cordoba_compra else '❌'}")
+        logging.info(f"   💙 Blue General: ${blue_general_compra}/{blue_general_venta} {'✅' if blue_general_compra else '❌'}")
+        logging.info(f"   📊 Promedio Backup: ${promedio_compra}/{promedio_venta} {'✅' if promedio_compra else '❌'}")
+        
+        return cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta, promedio_compra, promedio_venta
+    
+    except Exception as e:
+        logging.error(f"Error extrayendo precios completos de InfoDolar: {str(e)}")
+        return None, None, None, None, None, None
+
+def _limpiar_precio_infodolar(precio_str):
+    """
+    Limpia y convierte string de precio a float
+    """
+    try:
+        if '.' in precio_str and ',' in precio_str:
+            # Formato 1.302,00 -> 1302.00
+            clean_price = precio_str.replace('.', '').replace(',', '.')
+        elif ',' in precio_str and len(precio_str.split(',')[-1]) == 2:
+            # Formato 1302,00 -> 1302.00
+            clean_price = precio_str.replace(',', '.')
+        else:
+            # Formato simple
+            clean_price = precio_str.replace('.', '').replace(',', '')
+        
+        return float(clean_price)
+    
+    except (ValueError, AttributeError):
+        return None
+
+def _extraer_todos_precios_infodolar(html_content):
+    """
+    Extrae todos los precios como backup
+    """
+    precios = []
+    
+    # Patrones específicos para InfoDolar
+    patterns = [
+        r'\$\s*([1-2]\.\d{3},\d{2})',  # $1.302,00
+        r'\$\s*([1-2],\d{3}\.\d{2})',  # $1,302.00
+        r'\$\s*([1-2]\.\d{3})',        # $1.302
+        r'\$\s*([1-2],\d{3})',         # $1,302
+        r'>([1-2]\.\d{3},\d{2})<',     # Entre tags HTML
+        r'>([1-2],\d{3}\.\d{2})<',
+    ]
+    
+    for pattern in patterns:
+        matches = re.findall(pattern, html_content, re.IGNORECASE)
+        
+        for match in matches:
+            precio = _limpiar_precio_infodolar(match)
+            if precio and 1200 <= precio <= 1400:
+                precios.append(precio)
+    
+    # Eliminar duplicados
+    return list(set(precios))
+
 # Función para redondear precios personalizado
 def redondear_precio(precio):
     """
@@ -173,39 +414,87 @@ def redondear_precio(precio):
 # Función para calcular el DÓLAR BLUE COTIBOT
 def calcular_dolar_blue_cotibot():
     try:
-        # Obtener datos de todas las fuentes
+        # Obtener datos de todas las fuentes (incluyendo InfoDolar Córdoba)
         usdt_compra, usdt_venta = obtener_precio_fiwind()
         blue_criptoya_compra, blue_criptoya_venta, ccb_compra, ccb_venta = obtener_precio_blue_criptoya()
         blue_bluelytics_compra, blue_bluelytics_venta, oficial_bluelytics_compra, oficial_bluelytics_venta = obtener_precio_bluelytics()
         blue_dolarapi_compra, blue_dolarapi_venta = obtener_precio_dolarapi()
         
-        # Verificar que tengamos todos los datos necesarios
+        # === 🔥 NUEVA FUENTE: INFODOLAR CÓRDOBA ===
+        infodolar_cordoba_compra, infodolar_cordoba_venta, infodolar_blue_general_compra, infodolar_blue_general_venta = obtener_precio_infodolar()
+        
+        # Verificar que tengamos los datos esenciales (sin InfoDolar como requisito)
         if not all([usdt_compra, usdt_venta, blue_criptoya_compra, blue_criptoya_venta, 
                    ccb_compra, ccb_venta, blue_bluelytics_compra, blue_bluelytics_venta,
                    oficial_bluelytics_compra, oficial_bluelytics_venta, 
                    blue_dolarapi_compra, blue_dolarapi_venta]):
-            logging.error("No se pudieron obtener todos los datos necesarios para COTIBOT")
+            logging.error("No se pudieron obtener todos los datos esenciales para COTIBOT")
             return None, None
         
-        # === 🧮 Promedio simple para COMPRA (4 fuentes) - BLUE + OFICIAL
+        # === 🧮 CÁLCULO CON INFODOLAR CÓRDOBA INTEGRADO EN AMBAS PARTES ===
+        
+        # Fuentes para BLUE + OFICIAL (incluye InfoDolar Córdoba si está disponible)
+        blue_sources_compra = [blue_bluelytics_compra, blue_criptoya_compra, blue_dolarapi_compra]
+        blue_sources_venta = [blue_bluelytics_venta, blue_criptoya_venta, blue_dolarapi_venta]
+        
+        if infodolar_cordoba_compra and infodolar_cordoba_venta:
+            blue_sources_compra.append(infodolar_cordoba_compra)
+            blue_sources_venta.append(infodolar_cordoba_venta)
+            logging.info(f"🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: {infodolar_cordoba_compra}, Venta: {infodolar_cordoba_venta}")
+        else:
+            logging.warning("⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL")
+        
+        if infodolar_blue_general_compra and infodolar_blue_general_venta:
+            blue_sources_compra.append(infodolar_blue_general_compra)
+            blue_sources_venta.append(infodolar_blue_general_venta)
+            logging.info(f"💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: {infodolar_blue_general_compra}, Venta: {infodolar_blue_general_venta}")
+        else:
+            logging.warning("⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL")
+        
+        # Promedio BLUE + OFICIAL (con o sin InfoDolar Córdoba)
+        num_sources = len(blue_sources_compra)
         compra_blue = round(
-            (blue_bluelytics_compra + blue_criptoya_compra + blue_dolarapi_compra + oficial_bluelytics_compra) / 4, 2
+            (sum(blue_sources_compra) + oficial_bluelytics_compra) / (num_sources + 1), 2
         )
         
-        # === 🧮 Promedio ponderado para VENTA (90% de 3 fuentes + 10% del oficial Bluelytics) - BLUE + OFICIAL
+        # Promedio ponderado VENTA (90% blues + 10% oficial)
         venta_blue = round(
-            (blue_bluelytics_venta + blue_criptoya_venta + blue_dolarapi_venta) * 0.9 / 3 + oficial_bluelytics_venta * 0.1, 2
+            sum(blue_sources_venta) * 0.9 / num_sources + oficial_bluelytics_venta * 0.1, 2
         )
         
-        # === 🧮 Promedio USDT + CCB
-        compra_usdt_ccb = round((usdt_compra + ccb_compra) / 2, 2)
-        venta_usdt_ccb = round((usdt_venta + ccb_venta) / 2, 2)
+        # === 🧮 PROMEDIO USDT + CCB (CON AMBOS INFODOLAR + BLUES) ===
+        # Fuentes para USDT + CCB + InfoDolar + Blues principales
+        usdt_ccb_sources_compra = [usdt_compra, ccb_compra]
+        usdt_ccb_sources_venta = [usdt_venta, ccb_venta]
         
-        # === 🧮 BLUE + USDT + CCB (según AppScript)
+        # Agregar los 3 blues principales
+        usdt_ccb_sources_compra.extend([blue_bluelytics_compra, blue_criptoya_compra, blue_dolarapi_compra])
+        usdt_ccb_sources_venta.extend([blue_bluelytics_venta, blue_criptoya_venta, blue_dolarapi_venta])
+        logging.info(f"📊 Blues principales agregados a USDT+CCB")
+        
+        if infodolar_cordoba_compra and infodolar_cordoba_venta:
+            usdt_ccb_sources_compra.append(infodolar_cordoba_compra)
+            usdt_ccb_sources_venta.append(infodolar_cordoba_venta)
+            logging.info(f"🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: {infodolar_cordoba_compra}, Venta: {infodolar_cordoba_venta}")
+        else:
+            logging.warning("⚠️ InfoDolar Córdoba no disponible para USDT+CCB")
+        
+        if infodolar_blue_general_compra and infodolar_blue_general_venta:
+            usdt_ccb_sources_compra.append(infodolar_blue_general_compra)
+            usdt_ccb_sources_venta.append(infodolar_blue_general_venta)
+            logging.info(f"💙 InfoDolar Blue General integrado en USDT+CCB - Compra: {infodolar_blue_general_compra}, Venta: {infodolar_blue_general_venta}")
+        else:
+            logging.warning("⚠️ InfoDolar Blue General no disponible para USDT+CCB")
+        
+        compra_usdt_ccb = round(sum(usdt_ccb_sources_compra) / len(usdt_ccb_sources_compra), 2)
+        venta_usdt_ccb = round(sum(usdt_ccb_sources_venta) / len(usdt_ccb_sources_venta), 2)
+        
+        # === 🧮 RESTO DEL CÁLCULO IGUAL ===
+        # BLUE + USDT + CCB (según AppScript)
         compra_blue_usdt_ccb = round((compra_blue + compra_usdt_ccb) / 2, 2)
         venta_blue_usdt_ccb = round((venta_blue + venta_usdt_ccb) / 2, 2)
         
-        # === 🧮 Promedio final BLUE + USDT + CCB (DÓLAR BLUE COTIBOT)
+        # Promedio final BLUE + USDT + CCB (DÓLAR BLUE COTIBOT)
         compra_cotibot = round((compra_blue + compra_blue_usdt_ccb) / 2, 2)
         venta_cotibot = round((venta_blue + venta_blue_usdt_ccb) / 2, 2)
         
@@ -213,8 +502,9 @@ def calcular_dolar_blue_cotibot():
         compra_cotibot = redondear_precio(compra_cotibot)
         venta_cotibot = redondear_precio(venta_cotibot)
         
-        logging.info(f"DÓLAR BLUE COTIBOT - Compra: {compra_cotibot}, Venta: {venta_cotibot}")
-        logging.info(f"Detalles - Blue+Oficial: {compra_blue}/{venta_blue}, Blue+USDT+CCB: {compra_blue_usdt_ccb}/{venta_blue_usdt_ccb}")
+        logging.info(f"🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: {compra_cotibot}, Venta: {venta_cotibot}")
+        logging.info(f"🗺️ InfoDolar Córdoba: {'✅' if infodolar_cordoba_compra else '❌'} | 💙 Blue General: {'✅' if infodolar_blue_general_compra else '❌'}")
+        logging.info(f"📊 Blue+Oficial fuentes: {num_sources}, USDT+CCB fuentes: {len(usdt_ccb_sources_compra)}")
         
         return compra_cotibot, venta_cotibot
         
