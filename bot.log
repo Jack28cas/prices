@@ -1,49 +1,2952 @@
-2025-07-19 15:53:47,952 - INFO - Bot iniciado
-2025-07-19 15:53:48,276 - INFO - USDT Fiwind - Compra: 1298.0, Venta: 1310.0
-2025-07-19 15:53:48,563 - INFO - D�lar Blue - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:53:48,768 - INFO - USDT Fiwind - Compra: 1298.0, Venta: 1310.0
-2025-07-19 15:53:48,969 - INFO - Blue Criptoya - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:53:48,969 - INFO - CCB Criptoya - Compra: 1297.423, Venta: 1307.413
-2025-07-19 15:53:49,425 - INFO - Blue Bluelytics - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:53:49,425 - INFO - Oficial Bluelytics - Compra: 1262.0, Venta: 1307.0
-2025-07-19 15:53:49,792 - INFO - Blue DolarAPI - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:53:49,793 - INFO - D�LAR BLUE COTIBOT - Compra: 1290, Venta: 1305
-2025-07-19 15:53:49,796 - INFO - Detalles - Blue+Oficial: 1279.25/1305.2, USDT+CCB: 1297.71/1308.71
-2025-07-19 15:59:49,764 - INFO - Bot iniciado
-2025-07-19 15:59:50,225 - INFO - USDT Fiwind - Compra: 1298.0, Venta: 1310.0
-2025-07-19 15:59:50,455 - INFO - D�lar Blue - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:59:50,659 - INFO - USDT Fiwind - Compra: 1298.0, Venta: 1310.0
-2025-07-19 15:59:50,836 - INFO - Blue Criptoya - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:59:50,842 - INFO - CCB Criptoya - Compra: 1297.245, Venta: 1307.364
-2025-07-19 15:59:51,378 - INFO - Blue Bluelytics - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:59:51,378 - INFO - Oficial Bluelytics - Compra: 1262.0, Venta: 1307.0
-2025-07-19 15:59:51,684 - INFO - Blue DolarAPI - Compra: 1285.0, Venta: 1305.0
-2025-07-19 15:59:51,685 - INFO - D�LAR BLUE COTIBOT - Compra: 1285, Venta: 1305
-2025-07-19 15:59:51,685 - INFO - Detalles - Blue+Oficial: 1279.25/1305.2, Blue+USDT+CCB: 1288.43/1306.94
-2025-07-21 12:47:39,978 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
-2025-07-21 12:47:40,183 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
-2025-07-21 12:47:40,183 - INFO - CCB Criptoya - Compra: 1299.069, Venta: 1307.616
-2025-07-21 12:47:40,524 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
-2025-07-21 12:47:40,524 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
-2025-07-21 12:47:40,643 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:23:29,257 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
-2025-07-21 13:23:29,454 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:23:29,454 - INFO - CCB Criptoya - Compra: 1299.401, Venta: 1307.095
-2025-07-21 13:23:29,836 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:23:29,836 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
-2025-07-21 13:23:30,043 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:23:48,149 - WARNING - Patr�n Blue 1 encontr� precios iguales: $1305.0
-2025-07-21 13:29:36,200 - INFO - USDT Fiwind - Compra: 1300.0, Venta: 1312.0
-2025-07-21 13:29:36,410 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:29:36,410 - INFO - CCB Criptoya - Compra: 1299.431, Venta: 1306.514
-2025-07-21 13:29:37,125 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:29:37,126 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
-2025-07-21 13:29:37,375 - INFO - Blue DolarAPI - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:29:54,501 - WARNING - Patr�n Blue 1 encontr� precios iguales: $1305.0
-2025-07-21 13:56:02,332 - INFO - USDT Fiwind - Compra: 1297.0, Venta: 1310.0
-2025-07-21 13:56:02,641 - INFO - Blue Criptoya - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:56:02,641 - INFO - CCB Criptoya - Compra: 1296.329, Venta: 1305.826
-2025-07-21 13:56:03,461 - INFO - Blue Bluelytics - Compra: 1295.0, Venta: 1315.0
-2025-07-21 13:56:03,461 - INFO - Oficial Bluelytics - Compra: 1260.0, Venta: 1306.0
-2025-07-21 13:56:03,641 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
-2025-07-21 13:56:21,178 - WARNING - Patr�n Blue 1 encontr� precios iguales: $1305.0
+nohup: ignoring input
+2025-07-21 19:15:46,968 - INFO - Bot iniciado
+2025-07-21 19:15:48,167 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:15:48,774 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:15:48,967 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:15:49,176 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:15:49,176 - INFO - CCB Criptoya - Compra: 1286.715, Venta: 1295.917
+2025-07-21 19:15:50,475 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:15:50,475 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:15:51,078 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:15:52,270 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:16:46,166 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:17:19,767 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 25.093
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bf149ca77da <unknown>
+#1 0x5bf14974c2e0 <unknown>
+#2 0x5bf14973446c <unknown>
+#3 0x5bf149734175 <unknown>
+#4 0x5bf149731fd5 <unknown>
+#5 0x5bf14973292f <unknown>
+#6 0x5bf1497413e3 <unknown>
+#7 0x5bf14975a83e <unknown>
+#8 0x5bf14976107b <unknown>
+#9 0x5bf149733070 <unknown>
+#10 0x5bf14975a499 <unknown>
+#11 0x5bf1497e9a79 <unknown>
+#12 0x5bf1497c3683 <unknown>
+#13 0x5bf14978fb5b <unknown>
+#14 0x5bf149790f31 <unknown>
+#15 0x5bf149c6c72b <unknown>
+#16 0x5bf149c70534 <unknown>
+#17 0x5bf149c53229 <unknown>
+#18 0x5bf149c710d8 <unknown>
+#19 0x5bf149c3761f <unknown>
+#20 0x5bf149c94dd8 <unknown>
+#21 0x5bf149c94fb6 <unknown>
+#22 0x5bf149ca6af6 <unknown>
+#23 0x799b5609caa4 <unknown>
+#24 0x799b56129c3c <unknown>
+
+2025-07-21 19:17:21,767 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:17:54,466 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 8.204
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bf149ca77da <unknown>
+#1 0x5bf14974c2e0 <unknown>
+#2 0x5bf14973446c <unknown>
+#3 0x5bf149734175 <unknown>
+#4 0x5bf149731fd5 <unknown>
+#5 0x5bf14973292f <unknown>
+#6 0x5bf1497413e3 <unknown>
+#7 0x5bf14975a83e <unknown>
+#8 0x5bf14976107b <unknown>
+#9 0x5bf149733070 <unknown>
+#10 0x5bf14975a499 <unknown>
+#11 0x5bf1497e9a79 <unknown>
+#12 0x5bf1497c3683 <unknown>
+#13 0x5bf14978fb5b <unknown>
+#14 0x5bf149790f31 <unknown>
+#15 0x5bf149c6c72b <unknown>
+#16 0x5bf149c70534 <unknown>
+#17 0x5bf149c53229 <unknown>
+#18 0x5bf149c710d8 <unknown>
+#19 0x5bf149c3761f <unknown>
+#20 0x5bf149c94dd8 <unknown>
+#21 0x5bf149c94fb6 <unknown>
+#22 0x5bf149ca6af6 <unknown>
+#23 0x799b5609caa4 <unknown>
+#24 0x799b56129c3c <unknown>
+
+2025-07-21 19:17:54,467 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 8.204
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bf149ca77da <unknown>
+#1 0x5bf14974c2e0 <unknown>
+#2 0x5bf14973446c <unknown>
+#3 0x5bf149734175 <unknown>
+#4 0x5bf149731fd5 <unknown>
+#5 0x5bf14973292f <unknown>
+#6 0x5bf1497413e3 <unknown>
+#7 0x5bf14975a83e <unknown>
+#8 0x5bf14976107b <unknown>
+#9 0x5bf149733070 <unknown>
+#10 0x5bf14975a499 <unknown>
+#11 0x5bf1497e9a79 <unknown>
+#12 0x5bf1497c3683 <unknown>
+#13 0x5bf14978fb5b <unknown>
+#14 0x5bf149790f31 <unknown>
+#15 0x5bf149c6c72b <unknown>
+#16 0x5bf149c70534 <unknown>
+#17 0x5bf149c53229 <unknown>
+#18 0x5bf149c710d8 <unknown>
+#19 0x5bf149c3761f <unknown>
+#20 0x5bf149c94dd8 <unknown>
+#21 0x5bf149c94fb6 <unknown>
+#22 0x5bf149ca6af6 <unknown>
+#23 0x799b5609caa4 <unknown>
+#24 0x799b56129c3c <unknown>
+
+2025-07-21 19:17:54,467 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:17:58,771 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:17:58,771 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:17:58,772 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:17:58,772 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:17:58,772 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:17:58,772 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:17:58,772 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:17:58,773 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:18:59,071 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:18:59,270 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:18:59,573 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:18:59,775 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:18:59,775 - INFO - CCB Criptoya - Compra: 1287.553, Venta: 1295.658
+2025-07-21 19:19:00,271 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:19:00,272 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:19:00,368 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:19:00,368 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:19:27,773 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:20:03,877 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.302
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5f5b9f18c7da <unknown>
+#1 0x5f5b9ec312e0 <unknown>
+#2 0x5f5b9ec1946c <unknown>
+#3 0x5f5b9ec19175 <unknown>
+#4 0x5f5b9ec16fd5 <unknown>
+#5 0x5f5b9ec1792f <unknown>
+#6 0x5f5b9ec263e3 <unknown>
+#7 0x5f5b9ec3f83e <unknown>
+#8 0x5f5b9ec4607b <unknown>
+#9 0x5f5b9ec18070 <unknown>
+#10 0x5f5b9ec3f499 <unknown>
+#11 0x5f5b9eccea79 <unknown>
+#12 0x5f5b9eca8683 <unknown>
+#13 0x5f5b9ec74b5b <unknown>
+#14 0x5f5b9ec75f31 <unknown>
+#15 0x5f5b9f15172b <unknown>
+#16 0x5f5b9f155534 <unknown>
+#17 0x5f5b9f138229 <unknown>
+#18 0x5f5b9f1560d8 <unknown>
+#19 0x5f5b9f11c61f <unknown>
+#20 0x5f5b9f179dd8 <unknown>
+#21 0x5f5b9f179fb6 <unknown>
+#22 0x5f5b9f18baf6 <unknown>
+#23 0x72aa99a9caa4 <unknown>
+#24 0x72aa99b29c3c <unknown>
+
+2025-07-21 19:20:06,172 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:20:40,374 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 20.693
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5f5b9f18c7da <unknown>
+#1 0x5f5b9ec312e0 <unknown>
+#2 0x5f5b9ec1946c <unknown>
+#3 0x5f5b9ec19175 <unknown>
+#4 0x5f5b9ec16fd5 <unknown>
+#5 0x5f5b9ec1792f <unknown>
+#6 0x5f5b9ec263e3 <unknown>
+#7 0x5f5b9ec3f83e <unknown>
+#8 0x5f5b9ec4607b <unknown>
+#9 0x5f5b9ec18070 <unknown>
+#10 0x5f5b9ec3f499 <unknown>
+#11 0x5f5b9eccea79 <unknown>
+#12 0x5f5b9eca8683 <unknown>
+#13 0x5f5b9ec74b5b <unknown>
+#14 0x5f5b9ec75f31 <unknown>
+#15 0x5f5b9f15172b <unknown>
+#16 0x5f5b9f155534 <unknown>
+#17 0x5f5b9f138229 <unknown>
+#18 0x5f5b9f1560d8 <unknown>
+#19 0x5f5b9f11c61f <unknown>
+#20 0x5f5b9f179dd8 <unknown>
+#21 0x5f5b9f179fb6 <unknown>
+#22 0x5f5b9f18baf6 <unknown>
+#23 0x72aa99a9caa4 <unknown>
+#24 0x72aa99b29c3c <unknown>
+
+2025-07-21 19:20:40,374 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 20.693
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5f5b9f18c7da <unknown>
+#1 0x5f5b9ec312e0 <unknown>
+#2 0x5f5b9ec1946c <unknown>
+#3 0x5f5b9ec19175 <unknown>
+#4 0x5f5b9ec16fd5 <unknown>
+#5 0x5f5b9ec1792f <unknown>
+#6 0x5f5b9ec263e3 <unknown>
+#7 0x5f5b9ec3f83e <unknown>
+#8 0x5f5b9ec4607b <unknown>
+#9 0x5f5b9ec18070 <unknown>
+#10 0x5f5b9ec3f499 <unknown>
+#11 0x5f5b9eccea79 <unknown>
+#12 0x5f5b9eca8683 <unknown>
+#13 0x5f5b9ec74b5b <unknown>
+#14 0x5f5b9ec75f31 <unknown>
+#15 0x5f5b9f15172b <unknown>
+#16 0x5f5b9f155534 <unknown>
+#17 0x5f5b9f138229 <unknown>
+#18 0x5f5b9f1560d8 <unknown>
+#19 0x5f5b9f11c61f <unknown>
+#20 0x5f5b9f179dd8 <unknown>
+#21 0x5f5b9f179fb6 <unknown>
+#22 0x5f5b9f18baf6 <unknown>
+#23 0x72aa99a9caa4 <unknown>
+#24 0x72aa99b29c3c <unknown>
+
+2025-07-21 19:20:40,374 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:20:42,768 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:20:42,769 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:20:42,769 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:20:42,769 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:20:42,769 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:20:42,769 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:20:42,769 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:20:42,769 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:21:43,069 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:21:43,575 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:21:43,771 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:21:44,266 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:21:44,268 - INFO - CCB Criptoya - Compra: 1286.939, Venta: 1296.468
+2025-07-21 19:21:44,567 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:21:44,567 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:21:44,767 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:21:44,768 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:22:05,769 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:22:42,770 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ee765e857da <unknown>
+#1 0x5ee76592a2e0 <unknown>
+#2 0x5ee76591246c <unknown>
+#3 0x5ee765912175 <unknown>
+#4 0x5ee76590ffd5 <unknown>
+#5 0x5ee76591092f <unknown>
+#6 0x5ee76591f3e3 <unknown>
+#7 0x5ee76593883e <unknown>
+#8 0x5ee76593f07b <unknown>
+#9 0x5ee765911070 <unknown>
+#10 0x5ee765938499 <unknown>
+#11 0x5ee7659c75f6 <unknown>
+#12 0x5ee7659a1683 <unknown>
+#13 0x5ee76596db5b <unknown>
+#14 0x5ee76596ef31 <unknown>
+#15 0x5ee765e4a72b <unknown>
+#16 0x5ee765e4e534 <unknown>
+#17 0x5ee765e31229 <unknown>
+#18 0x5ee765e4f0d8 <unknown>
+#19 0x5ee765e1561f <unknown>
+#20 0x5ee765e72dd8 <unknown>
+#21 0x5ee765e72fb6 <unknown>
+#22 0x5ee765e84af6 <unknown>
+#23 0x7da92f29caa4 <unknown>
+#24 0x7da92f329c3c <unknown>
+
+2025-07-21 19:22:44,770 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:23:16,772 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 9.899
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ee765e857da <unknown>
+#1 0x5ee76592a2e0 <unknown>
+#2 0x5ee76591246c <unknown>
+#3 0x5ee765912175 <unknown>
+#4 0x5ee76590ffd5 <unknown>
+#5 0x5ee76591092f <unknown>
+#6 0x5ee76591f3e3 <unknown>
+#7 0x5ee76593883e <unknown>
+#8 0x5ee76593f07b <unknown>
+#9 0x5ee765911070 <unknown>
+#10 0x5ee765938499 <unknown>
+#11 0x5ee7659c7a79 <unknown>
+#12 0x5ee7659a1683 <unknown>
+#13 0x5ee76596db5b <unknown>
+#14 0x5ee76596ef31 <unknown>
+#15 0x5ee765e4a72b <unknown>
+#16 0x5ee765e4e534 <unknown>
+#17 0x5ee765e31229 <unknown>
+#18 0x5ee765e4f0d8 <unknown>
+#19 0x5ee765e1561f <unknown>
+#20 0x5ee765e72dd8 <unknown>
+#21 0x5ee765e72fb6 <unknown>
+#22 0x5ee765e84af6 <unknown>
+#23 0x7da92f29caa4 <unknown>
+#24 0x7da92f329c3c <unknown>
+
+2025-07-21 19:23:16,774 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 9.899
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ee765e857da <unknown>
+#1 0x5ee76592a2e0 <unknown>
+#2 0x5ee76591246c <unknown>
+#3 0x5ee765912175 <unknown>
+#4 0x5ee76590ffd5 <unknown>
+#5 0x5ee76591092f <unknown>
+#6 0x5ee76591f3e3 <unknown>
+#7 0x5ee76593883e <unknown>
+#8 0x5ee76593f07b <unknown>
+#9 0x5ee765911070 <unknown>
+#10 0x5ee765938499 <unknown>
+#11 0x5ee7659c7a79 <unknown>
+#12 0x5ee7659a1683 <unknown>
+#13 0x5ee76596db5b <unknown>
+#14 0x5ee76596ef31 <unknown>
+#15 0x5ee765e4a72b <unknown>
+#16 0x5ee765e4e534 <unknown>
+#17 0x5ee765e31229 <unknown>
+#18 0x5ee765e4f0d8 <unknown>
+#19 0x5ee765e1561f <unknown>
+#20 0x5ee765e72dd8 <unknown>
+#21 0x5ee765e72fb6 <unknown>
+#22 0x5ee765e84af6 <unknown>
+#23 0x7da92f29caa4 <unknown>
+#24 0x7da92f329c3c <unknown>
+
+2025-07-21 19:23:16,775 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:23:19,076 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:23:19,076 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:23:19,076 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:23:19,076 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:23:19,076 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:23:19,076 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:23:19,076 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:23:19,076 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:24:19,667 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:24:19,868 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:24:20,069 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:24:20,275 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:24:20,275 - INFO - CCB Criptoya - Compra: 1287.38, Venta: 1296.632
+2025-07-21 19:24:20,767 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:24:20,767 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:24:21,269 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:24:21,269 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:24:56,668 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:25:27,473 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 26.499
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5d561254a7da <unknown>
+#1 0x5d5611fef2e0 <unknown>
+#2 0x5d5611fd746c <unknown>
+#3 0x5d5611fd7175 <unknown>
+#4 0x5d5611fd4fd5 <unknown>
+#5 0x5d5611fd592f <unknown>
+#6 0x5d5611fe43e3 <unknown>
+#7 0x5d5611ffd83e <unknown>
+#8 0x5d561200407b <unknown>
+#9 0x5d5611fd6070 <unknown>
+#10 0x5d5611ffd499 <unknown>
+#11 0x5d561208ca79 <unknown>
+#12 0x5d5612066683 <unknown>
+#13 0x5d5612032b5b <unknown>
+#14 0x5d5612033f31 <unknown>
+#15 0x5d561250f72b <unknown>
+#16 0x5d5612513534 <unknown>
+#17 0x5d56124f6229 <unknown>
+#18 0x5d56125140d8 <unknown>
+#19 0x5d56124da61f <unknown>
+#20 0x5d5612537dd8 <unknown>
+#21 0x5d5612537fb6 <unknown>
+#22 0x5d5612549af6 <unknown>
+#23 0x730dbb09caa4 <unknown>
+#24 0x730dbb129c3c <unknown>
+
+2025-07-21 19:25:29,474 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:26:03,073 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 18.407
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5d561254a7da <unknown>
+#1 0x5d5611fef2e0 <unknown>
+#2 0x5d5611fd746c <unknown>
+#3 0x5d5611fd7175 <unknown>
+#4 0x5d5611fd4fd5 <unknown>
+#5 0x5d5611fd592f <unknown>
+#6 0x5d5611fe43e3 <unknown>
+#7 0x5d5611ffd83e <unknown>
+#8 0x5d561200407b <unknown>
+#9 0x5d5611fd6070 <unknown>
+#10 0x5d5611ffd499 <unknown>
+#11 0x5d561208ca79 <unknown>
+#12 0x5d5612066683 <unknown>
+#13 0x5d5612032b5b <unknown>
+#14 0x5d5612033f31 <unknown>
+#15 0x5d561250f72b <unknown>
+#16 0x5d5612513534 <unknown>
+#17 0x5d56124f6229 <unknown>
+#18 0x5d56125140d8 <unknown>
+#19 0x5d56124da61f <unknown>
+#20 0x5d5612537dd8 <unknown>
+#21 0x5d5612537fb6 <unknown>
+#22 0x5d5612549af6 <unknown>
+#23 0x730dbb09caa4 <unknown>
+#24 0x730dbb129c3c <unknown>
+
+2025-07-21 19:26:03,074 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 18.407
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5d561254a7da <unknown>
+#1 0x5d5611fef2e0 <unknown>
+#2 0x5d5611fd746c <unknown>
+#3 0x5d5611fd7175 <unknown>
+#4 0x5d5611fd4fd5 <unknown>
+#5 0x5d5611fd592f <unknown>
+#6 0x5d5611fe43e3 <unknown>
+#7 0x5d5611ffd83e <unknown>
+#8 0x5d561200407b <unknown>
+#9 0x5d5611fd6070 <unknown>
+#10 0x5d5611ffd499 <unknown>
+#11 0x5d561208ca79 <unknown>
+#12 0x5d5612066683 <unknown>
+#13 0x5d5612032b5b <unknown>
+#14 0x5d5612033f31 <unknown>
+#15 0x5d561250f72b <unknown>
+#16 0x5d5612513534 <unknown>
+#17 0x5d56124f6229 <unknown>
+#18 0x5d56125140d8 <unknown>
+#19 0x5d56124da61f <unknown>
+#20 0x5d5612537dd8 <unknown>
+#21 0x5d5612537fb6 <unknown>
+#22 0x5d5612549af6 <unknown>
+#23 0x730dbb09caa4 <unknown>
+#24 0x730dbb129c3c <unknown>
+
+2025-07-21 19:26:03,473 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:26:05,471 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:26:05,471 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:26:05,471 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:26:05,471 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:26:05,471 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:26:05,471 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:26:05,471 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:26:05,471 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:27:05,867 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:27:06,067 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:27:06,269 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:27:06,467 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:27:06,467 - INFO - CCB Criptoya - Compra: 1288.416, Venta: 1297.37
+2025-07-21 19:27:06,967 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:27:06,967 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:27:07,067 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:27:07,067 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:27:20,668 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:27:54,172 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.699
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5859918e37da <unknown>
+#1 0x5859913882e0 <unknown>
+#2 0x58599137046c <unknown>
+#3 0x585991370175 <unknown>
+#4 0x58599136dfd5 <unknown>
+#5 0x58599136e92f <unknown>
+#6 0x58599137d3e3 <unknown>
+#7 0x58599139683e <unknown>
+#8 0x58599139d07b <unknown>
+#9 0x58599136f070 <unknown>
+#10 0x585991396499 <unknown>
+#11 0x585991425a79 <unknown>
+#12 0x5859913ff683 <unknown>
+#13 0x5859913cbb5b <unknown>
+#14 0x5859913ccf31 <unknown>
+#15 0x5859918a872b <unknown>
+#16 0x5859918ac534 <unknown>
+#17 0x58599188f229 <unknown>
+#18 0x5859918ad0d8 <unknown>
+#19 0x58599187361f <unknown>
+#20 0x5859918d0dd8 <unknown>
+#21 0x5859918d0fb6 <unknown>
+#22 0x5859918e2af6 <unknown>
+#23 0x7f7ad969caa4 <unknown>
+#24 0x7f7ad9729c3c <unknown>
+
+2025-07-21 19:27:56,172 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:28:40,068 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: -10.695
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5859918e37da <unknown>
+#1 0x5859913882e0 <unknown>
+#2 0x58599137046c <unknown>
+#3 0x585991370175 <unknown>
+#4 0x58599136dfd5 <unknown>
+#5 0x58599136e92f <unknown>
+#6 0x58599137d3e3 <unknown>
+#7 0x58599139683e <unknown>
+#8 0x58599139d07b <unknown>
+#9 0x58599136f070 <unknown>
+#10 0x585991396499 <unknown>
+#11 0x5859914255f6 <unknown>
+#12 0x5859913ff683 <unknown>
+#13 0x5859913cbb5b <unknown>
+#14 0x5859913ccf31 <unknown>
+#15 0x5859918a872b <unknown>
+#16 0x5859918ac534 <unknown>
+#17 0x58599188f229 <unknown>
+#18 0x5859918ad0d8 <unknown>
+#19 0x58599187361f <unknown>
+#20 0x5859918d0dd8 <unknown>
+#21 0x5859918d0fb6 <unknown>
+#22 0x5859918e2af6 <unknown>
+#23 0x7f7ad969caa4 <unknown>
+#24 0x7f7ad9729c3c <unknown>
+
+2025-07-21 19:28:40,978 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: -10.695
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5859918e37da <unknown>
+#1 0x5859913882e0 <unknown>
+#2 0x58599137046c <unknown>
+#3 0x585991370175 <unknown>
+#4 0x58599136dfd5 <unknown>
+#5 0x58599136e92f <unknown>
+#6 0x58599137d3e3 <unknown>
+#7 0x58599139683e <unknown>
+#8 0x58599139d07b <unknown>
+#9 0x58599136f070 <unknown>
+#10 0x585991396499 <unknown>
+#11 0x5859914255f6 <unknown>
+#12 0x5859913ff683 <unknown>
+#13 0x5859913cbb5b <unknown>
+#14 0x5859913ccf31 <unknown>
+#15 0x5859918a872b <unknown>
+#16 0x5859918ac534 <unknown>
+#17 0x58599188f229 <unknown>
+#18 0x5859918ad0d8 <unknown>
+#19 0x58599187361f <unknown>
+#20 0x5859918d0dd8 <unknown>
+#21 0x5859918d0fb6 <unknown>
+#22 0x5859918e2af6 <unknown>
+#23 0x7f7ad969caa4 <unknown>
+#24 0x7f7ad9729c3c <unknown>
+
+2025-07-21 19:28:40,978 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:28:47,073 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:28:47,073 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:28:47,073 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:28:47,073 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:28:47,073 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:28:47,073 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:28:47,073 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:28:47,073 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:29:47,869 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:29:48,069 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:29:48,267 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:29:48,572 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:29:48,573 - INFO - CCB Criptoya - Compra: 1289.009, Venta: 1298.124
+2025-07-21 19:29:49,169 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:29:49,169 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:29:49,367 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:29:49,367 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:30:26,677 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:30:59,767 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 25.598
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5b11e2dbd7da <unknown>
+#1 0x5b11e28622e0 <unknown>
+#2 0x5b11e284a46c <unknown>
+#3 0x5b11e284a175 <unknown>
+#4 0x5b11e2847fd5 <unknown>
+#5 0x5b11e284892f <unknown>
+#6 0x5b11e28573e3 <unknown>
+#7 0x5b11e287083e <unknown>
+#8 0x5b11e287707b <unknown>
+#9 0x5b11e2849070 <unknown>
+#10 0x5b11e2870499 <unknown>
+#11 0x5b11e28ffa79 <unknown>
+#12 0x5b11e28d9683 <unknown>
+#13 0x5b11e28a5b5b <unknown>
+#14 0x5b11e28a6f31 <unknown>
+#15 0x5b11e2d8272b <unknown>
+#16 0x5b11e2d86534 <unknown>
+#17 0x5b11e2d69229 <unknown>
+#18 0x5b11e2d870d8 <unknown>
+#19 0x5b11e2d4d61f <unknown>
+#20 0x5b11e2daadd8 <unknown>
+#21 0x5b11e2daafb6 <unknown>
+#22 0x5b11e2dbcaf6 <unknown>
+#23 0x7a84bf29caa4 <unknown>
+#24 0x7a84bf329c3c <unknown>
+
+2025-07-21 19:31:01,769 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:31:32,968 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 19.400
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5b11e2dbd7da <unknown>
+#1 0x5b11e28622e0 <unknown>
+#2 0x5b11e284a46c <unknown>
+#3 0x5b11e284a175 <unknown>
+#4 0x5b11e2847fd5 <unknown>
+#5 0x5b11e284892f <unknown>
+#6 0x5b11e28573e3 <unknown>
+#7 0x5b11e287083e <unknown>
+#8 0x5b11e287707b <unknown>
+#9 0x5b11e2849070 <unknown>
+#10 0x5b11e2870499 <unknown>
+#11 0x5b11e28ffa79 <unknown>
+#12 0x5b11e28d9683 <unknown>
+#13 0x5b11e28a5b5b <unknown>
+#14 0x5b11e28a6f31 <unknown>
+#15 0x5b11e2d8272b <unknown>
+#16 0x5b11e2d86534 <unknown>
+#17 0x5b11e2d69229 <unknown>
+#18 0x5b11e2d870d8 <unknown>
+#19 0x5b11e2d4d61f <unknown>
+#20 0x5b11e2daadd8 <unknown>
+#21 0x5b11e2daafb6 <unknown>
+#22 0x5b11e2dbcaf6 <unknown>
+#23 0x7a84bf29caa4 <unknown>
+#24 0x7a84bf329c3c <unknown>
+
+2025-07-21 19:31:32,968 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 19.400
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5b11e2dbd7da <unknown>
+#1 0x5b11e28622e0 <unknown>
+#2 0x5b11e284a46c <unknown>
+#3 0x5b11e284a175 <unknown>
+#4 0x5b11e2847fd5 <unknown>
+#5 0x5b11e284892f <unknown>
+#6 0x5b11e28573e3 <unknown>
+#7 0x5b11e287083e <unknown>
+#8 0x5b11e287707b <unknown>
+#9 0x5b11e2849070 <unknown>
+#10 0x5b11e2870499 <unknown>
+#11 0x5b11e28ffa79 <unknown>
+#12 0x5b11e28d9683 <unknown>
+#13 0x5b11e28a5b5b <unknown>
+#14 0x5b11e28a6f31 <unknown>
+#15 0x5b11e2d8272b <unknown>
+#16 0x5b11e2d86534 <unknown>
+#17 0x5b11e2d69229 <unknown>
+#18 0x5b11e2d870d8 <unknown>
+#19 0x5b11e2d4d61f <unknown>
+#20 0x5b11e2daadd8 <unknown>
+#21 0x5b11e2daafb6 <unknown>
+#22 0x5b11e2dbcaf6 <unknown>
+#23 0x7a84bf29caa4 <unknown>
+#24 0x7a84bf329c3c <unknown>
+
+2025-07-21 19:31:32,968 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:31:35,466 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:31:35,466 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:31:35,466 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:31:35,466 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:31:35,466 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:31:35,466 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:31:35,466 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:31:35,467 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:32:35,867 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:32:36,067 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:32:36,267 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:32:36,467 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:32:36,469 - INFO - CCB Criptoya - Compra: 1288.035, Venta: 1297.583
+2025-07-21 19:32:36,767 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:32:36,767 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:32:36,867 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:32:36,867 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:32:51,270 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:33:24,773 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.701
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e57387737da <unknown>
+#1 0x5e57382182e0 <unknown>
+#2 0x5e573820046c <unknown>
+#3 0x5e5738200175 <unknown>
+#4 0x5e57381fdfd5 <unknown>
+#5 0x5e57381fe92f <unknown>
+#6 0x5e573820d3e3 <unknown>
+#7 0x5e573822683e <unknown>
+#8 0x5e573822d07b <unknown>
+#9 0x5e57381ff070 <unknown>
+#10 0x5e5738226499 <unknown>
+#11 0x5e57382b5a79 <unknown>
+#12 0x5e573828f683 <unknown>
+#13 0x5e573825bb5b <unknown>
+#14 0x5e573825cf31 <unknown>
+#15 0x5e573873872b <unknown>
+#16 0x5e573873c534 <unknown>
+#17 0x5e573871f229 <unknown>
+#18 0x5e573873d0d8 <unknown>
+#19 0x5e573870361f <unknown>
+#20 0x5e5738760dd8 <unknown>
+#21 0x5e5738760fb6 <unknown>
+#22 0x5e5738772af6 <unknown>
+#23 0x74b63e69caa4 <unknown>
+#24 0x74b63e729c3c <unknown>
+
+2025-07-21 19:33:26,774 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:34:16,774 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e57387737da <unknown>
+#1 0x5e57382182e0 <unknown>
+#2 0x5e573820046c <unknown>
+#3 0x5e5738200175 <unknown>
+#4 0x5e57381fdfd5 <unknown>
+#5 0x5e57381fe92f <unknown>
+#6 0x5e573820d3e3 <unknown>
+#7 0x5e573822683e <unknown>
+#8 0x5e573822d07b <unknown>
+#9 0x5e57381ff070 <unknown>
+#10 0x5e5738226499 <unknown>
+#11 0x5e57382b55f6 <unknown>
+#12 0x5e573828f683 <unknown>
+#13 0x5e573825bb5b <unknown>
+#14 0x5e573825cf31 <unknown>
+#15 0x5e573873872b <unknown>
+#16 0x5e573873c534 <unknown>
+#17 0x5e573871f229 <unknown>
+#18 0x5e573873d0d8 <unknown>
+#19 0x5e573870361f <unknown>
+#20 0x5e5738760dd8 <unknown>
+#21 0x5e5738760fb6 <unknown>
+#22 0x5e5738772af6 <unknown>
+#23 0x74b63e69caa4 <unknown>
+#24 0x74b63e729c3c <unknown>
+
+2025-07-21 19:34:17,366 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e57387737da <unknown>
+#1 0x5e57382182e0 <unknown>
+#2 0x5e573820046c <unknown>
+#3 0x5e5738200175 <unknown>
+#4 0x5e57381fdfd5 <unknown>
+#5 0x5e57381fe92f <unknown>
+#6 0x5e573820d3e3 <unknown>
+#7 0x5e573822683e <unknown>
+#8 0x5e573822d07b <unknown>
+#9 0x5e57381ff070 <unknown>
+#10 0x5e5738226499 <unknown>
+#11 0x5e57382b55f6 <unknown>
+#12 0x5e573828f683 <unknown>
+#13 0x5e573825bb5b <unknown>
+#14 0x5e573825cf31 <unknown>
+#15 0x5e573873872b <unknown>
+#16 0x5e573873c534 <unknown>
+#17 0x5e573871f229 <unknown>
+#18 0x5e573873d0d8 <unknown>
+#19 0x5e573870361f <unknown>
+#20 0x5e5738760dd8 <unknown>
+#21 0x5e5738760fb6 <unknown>
+#22 0x5e5738772af6 <unknown>
+#23 0x74b63e69caa4 <unknown>
+#24 0x74b63e729c3c <unknown>
+
+2025-07-21 19:34:17,367 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:34:24,775 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:34:24,775 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:34:24,776 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:34:24,776 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:34:24,776 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:34:24,776 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:34:24,776 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:34:24,776 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:35:25,671 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:35:25,868 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:35:26,269 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:35:26,767 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:35:26,767 - INFO - CCB Criptoya - Compra: 1286.521, Venta: 1297.47
+2025-07-21 19:35:27,274 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:35:27,274 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:35:27,374 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:35:27,374 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:36:15,371 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:36:54,671 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a925620e7da <unknown>
+#1 0x5a9255cb32e0 <unknown>
+#2 0x5a9255c9b46c <unknown>
+#3 0x5a9255c9b175 <unknown>
+#4 0x5a9255c98fd5 <unknown>
+#5 0x5a9255c9992f <unknown>
+#6 0x5a9255ca83e3 <unknown>
+#7 0x5a9255cc183e <unknown>
+#8 0x5a9255cc807b <unknown>
+#9 0x5a9255c9a070 <unknown>
+#10 0x5a9255cc1499 <unknown>
+#11 0x5a9255d505f6 <unknown>
+#12 0x5a9255d2a683 <unknown>
+#13 0x5a9255cf6b5b <unknown>
+#14 0x5a9255cf7f31 <unknown>
+#15 0x5a92561d372b <unknown>
+#16 0x5a92561d7534 <unknown>
+#17 0x5a92561ba229 <unknown>
+#18 0x5a92561d80d8 <unknown>
+#19 0x5a925619e61f <unknown>
+#20 0x5a92561fbdd8 <unknown>
+#21 0x5a92561fbfb6 <unknown>
+#22 0x5a925620daf6 <unknown>
+#23 0x73dc7609caa4 <unknown>
+#24 0x73dc76129c3c <unknown>
+
+2025-07-21 19:36:56,671 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:37:28,275 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 16.998
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a925620e7da <unknown>
+#1 0x5a9255cb32e0 <unknown>
+#2 0x5a9255c9b46c <unknown>
+#3 0x5a9255c9b175 <unknown>
+#4 0x5a9255c98fd5 <unknown>
+#5 0x5a9255c9992f <unknown>
+#6 0x5a9255ca83e3 <unknown>
+#7 0x5a9255cc183e <unknown>
+#8 0x5a9255cc807b <unknown>
+#9 0x5a9255c9a070 <unknown>
+#10 0x5a9255cc1499 <unknown>
+#11 0x5a9255d50a79 <unknown>
+#12 0x5a9255d2a683 <unknown>
+#13 0x5a9255cf6b5b <unknown>
+#14 0x5a9255cf7f31 <unknown>
+#15 0x5a92561d372b <unknown>
+#16 0x5a92561d7534 <unknown>
+#17 0x5a92561ba229 <unknown>
+#18 0x5a92561d80d8 <unknown>
+#19 0x5a925619e61f <unknown>
+#20 0x5a92561fbdd8 <unknown>
+#21 0x5a92561fbfb6 <unknown>
+#22 0x5a925620daf6 <unknown>
+#23 0x73dc7609caa4 <unknown>
+#24 0x73dc76129c3c <unknown>
+
+2025-07-21 19:37:28,572 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 16.998
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a925620e7da <unknown>
+#1 0x5a9255cb32e0 <unknown>
+#2 0x5a9255c9b46c <unknown>
+#3 0x5a9255c9b175 <unknown>
+#4 0x5a9255c98fd5 <unknown>
+#5 0x5a9255c9992f <unknown>
+#6 0x5a9255ca83e3 <unknown>
+#7 0x5a9255cc183e <unknown>
+#8 0x5a9255cc807b <unknown>
+#9 0x5a9255c9a070 <unknown>
+#10 0x5a9255cc1499 <unknown>
+#11 0x5a9255d50a79 <unknown>
+#12 0x5a9255d2a683 <unknown>
+#13 0x5a9255cf6b5b <unknown>
+#14 0x5a9255cf7f31 <unknown>
+#15 0x5a92561d372b <unknown>
+#16 0x5a92561d7534 <unknown>
+#17 0x5a92561ba229 <unknown>
+#18 0x5a92561d80d8 <unknown>
+#19 0x5a925619e61f <unknown>
+#20 0x5a92561fbdd8 <unknown>
+#21 0x5a92561fbfb6 <unknown>
+#22 0x5a925620daf6 <unknown>
+#23 0x73dc7609caa4 <unknown>
+#24 0x73dc76129c3c <unknown>
+
+2025-07-21 19:37:28,572 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:37:31,571 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:37:31,571 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:37:31,571 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:37:31,571 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:37:31,571 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:37:31,571 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:37:31,571 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:37:31,571 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:38:32,468 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:38:32,767 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:38:33,071 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:38:33,272 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:38:33,272 - INFO - CCB Criptoya - Compra: 1286.366, Venta: 1297.209
+2025-07-21 19:38:33,967 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:38:33,967 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:38:34,167 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:38:34,167 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:38:54,969 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:39:25,378 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.201
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x63eb32c127da <unknown>
+#1 0x63eb326b72e0 <unknown>
+#2 0x63eb3269f46c <unknown>
+#3 0x63eb3269f175 <unknown>
+#4 0x63eb3269cfd5 <unknown>
+#5 0x63eb3269d92f <unknown>
+#6 0x63eb326ac3e3 <unknown>
+#7 0x63eb326c583e <unknown>
+#8 0x63eb326cc07b <unknown>
+#9 0x63eb3269e070 <unknown>
+#10 0x63eb326c5499 <unknown>
+#11 0x63eb32754a79 <unknown>
+#12 0x63eb3272e683 <unknown>
+#13 0x63eb326fab5b <unknown>
+#14 0x63eb326fbf31 <unknown>
+#15 0x63eb32bd772b <unknown>
+#16 0x63eb32bdb534 <unknown>
+#17 0x63eb32bbe229 <unknown>
+#18 0x63eb32bdc0d8 <unknown>
+#19 0x63eb32ba261f <unknown>
+#20 0x63eb32bffdd8 <unknown>
+#21 0x63eb32bfffb6 <unknown>
+#22 0x63eb32c11af6 <unknown>
+#23 0x7ddada09caa4 <unknown>
+#24 0x7ddada129c3c <unknown>
+
+2025-07-21 19:39:27,669 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:40:00,173 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 16.997
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x63eb32c127da <unknown>
+#1 0x63eb326b72e0 <unknown>
+#2 0x63eb3269f46c <unknown>
+#3 0x63eb3269f175 <unknown>
+#4 0x63eb3269cfd5 <unknown>
+#5 0x63eb3269d92f <unknown>
+#6 0x63eb326ac3e3 <unknown>
+#7 0x63eb326c583e <unknown>
+#8 0x63eb326cc07b <unknown>
+#9 0x63eb3269e070 <unknown>
+#10 0x63eb326c5499 <unknown>
+#11 0x63eb32754a79 <unknown>
+#12 0x63eb3272e683 <unknown>
+#13 0x63eb326fab5b <unknown>
+#14 0x63eb326fbf31 <unknown>
+#15 0x63eb32bd772b <unknown>
+#16 0x63eb32bdb534 <unknown>
+#17 0x63eb32bbe229 <unknown>
+#18 0x63eb32bdc0d8 <unknown>
+#19 0x63eb32ba261f <unknown>
+#20 0x63eb32bffdd8 <unknown>
+#21 0x63eb32bfffb6 <unknown>
+#22 0x63eb32c11af6 <unknown>
+#23 0x7ddada09caa4 <unknown>
+#24 0x7ddada129c3c <unknown>
+
+2025-07-21 19:40:00,173 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 16.997
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x63eb32c127da <unknown>
+#1 0x63eb326b72e0 <unknown>
+#2 0x63eb3269f46c <unknown>
+#3 0x63eb3269f175 <unknown>
+#4 0x63eb3269cfd5 <unknown>
+#5 0x63eb3269d92f <unknown>
+#6 0x63eb326ac3e3 <unknown>
+#7 0x63eb326c583e <unknown>
+#8 0x63eb326cc07b <unknown>
+#9 0x63eb3269e070 <unknown>
+#10 0x63eb326c5499 <unknown>
+#11 0x63eb32754a79 <unknown>
+#12 0x63eb3272e683 <unknown>
+#13 0x63eb326fab5b <unknown>
+#14 0x63eb326fbf31 <unknown>
+#15 0x63eb32bd772b <unknown>
+#16 0x63eb32bdb534 <unknown>
+#17 0x63eb32bbe229 <unknown>
+#18 0x63eb32bdc0d8 <unknown>
+#19 0x63eb32ba261f <unknown>
+#20 0x63eb32bffdd8 <unknown>
+#21 0x63eb32bfffb6 <unknown>
+#22 0x63eb32c11af6 <unknown>
+#23 0x7ddada09caa4 <unknown>
+#24 0x7ddada129c3c <unknown>
+
+2025-07-21 19:40:00,173 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:40:04,868 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:40:04,869 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:40:04,869 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:40:04,869 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:40:04,869 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:40:04,870 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:40:04,870 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:40:04,870 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:41:05,074 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:41:05,477 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:41:05,673 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:41:05,871 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:41:05,871 - INFO - CCB Criptoya - Compra: 1286.303, Venta: 1297.45
+2025-07-21 19:41:06,368 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:41:06,369 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:41:06,469 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:41:06,469 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:41:29,467 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:42:02,678 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.895
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5dbb744e17da <unknown>
+#1 0x5dbb73f862e0 <unknown>
+#2 0x5dbb73f6e46c <unknown>
+#3 0x5dbb73f6e175 <unknown>
+#4 0x5dbb73f6bfd5 <unknown>
+#5 0x5dbb73f6c92f <unknown>
+#6 0x5dbb73f7b3e3 <unknown>
+#7 0x5dbb73f9483e <unknown>
+#8 0x5dbb73f9b07b <unknown>
+#9 0x5dbb73f6d070 <unknown>
+#10 0x5dbb73f94499 <unknown>
+#11 0x5dbb74023a79 <unknown>
+#12 0x5dbb73ffd683 <unknown>
+#13 0x5dbb73fc9b5b <unknown>
+#14 0x5dbb73fcaf31 <unknown>
+#15 0x5dbb744a672b <unknown>
+#16 0x5dbb744aa534 <unknown>
+#17 0x5dbb7448d229 <unknown>
+#18 0x5dbb744ab0d8 <unknown>
+#19 0x5dbb7447161f <unknown>
+#20 0x5dbb744cedd8 <unknown>
+#21 0x5dbb744cefb6 <unknown>
+#22 0x5dbb744e0af6 <unknown>
+#23 0x7e8a4149caa4 <unknown>
+#24 0x7e8a41529c3c <unknown>
+
+2025-07-21 19:42:04,767 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:42:35,472 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 13.601
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5dbb744e17da <unknown>
+#1 0x5dbb73f862e0 <unknown>
+#2 0x5dbb73f6e46c <unknown>
+#3 0x5dbb73f6e175 <unknown>
+#4 0x5dbb73f6bfd5 <unknown>
+#5 0x5dbb73f6c92f <unknown>
+#6 0x5dbb73f7b3e3 <unknown>
+#7 0x5dbb73f9483e <unknown>
+#8 0x5dbb73f9b07b <unknown>
+#9 0x5dbb73f6d070 <unknown>
+#10 0x5dbb73f94499 <unknown>
+#11 0x5dbb74023a79 <unknown>
+#12 0x5dbb73ffd683 <unknown>
+#13 0x5dbb73fc9b5b <unknown>
+#14 0x5dbb73fcaf31 <unknown>
+#15 0x5dbb744a672b <unknown>
+#16 0x5dbb744aa534 <unknown>
+#17 0x5dbb7448d229 <unknown>
+#18 0x5dbb744ab0d8 <unknown>
+#19 0x5dbb7447161f <unknown>
+#20 0x5dbb744cedd8 <unknown>
+#21 0x5dbb744cefb6 <unknown>
+#22 0x5dbb744e0af6 <unknown>
+#23 0x7e8a4149caa4 <unknown>
+#24 0x7e8a41529c3c <unknown>
+
+2025-07-21 19:42:35,472 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 13.601
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5dbb744e17da <unknown>
+#1 0x5dbb73f862e0 <unknown>
+#2 0x5dbb73f6e46c <unknown>
+#3 0x5dbb73f6e175 <unknown>
+#4 0x5dbb73f6bfd5 <unknown>
+#5 0x5dbb73f6c92f <unknown>
+#6 0x5dbb73f7b3e3 <unknown>
+#7 0x5dbb73f9483e <unknown>
+#8 0x5dbb73f9b07b <unknown>
+#9 0x5dbb73f6d070 <unknown>
+#10 0x5dbb73f94499 <unknown>
+#11 0x5dbb74023a79 <unknown>
+#12 0x5dbb73ffd683 <unknown>
+#13 0x5dbb73fc9b5b <unknown>
+#14 0x5dbb73fcaf31 <unknown>
+#15 0x5dbb744a672b <unknown>
+#16 0x5dbb744aa534 <unknown>
+#17 0x5dbb7448d229 <unknown>
+#18 0x5dbb744ab0d8 <unknown>
+#19 0x5dbb7447161f <unknown>
+#20 0x5dbb744cedd8 <unknown>
+#21 0x5dbb744cefb6 <unknown>
+#22 0x5dbb744e0af6 <unknown>
+#23 0x7e8a4149caa4 <unknown>
+#24 0x7e8a41529c3c <unknown>
+
+2025-07-21 19:42:35,472 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:42:37,970 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:42:37,970 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:42:37,970 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:42:37,970 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:42:37,970 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:42:37,970 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:42:37,970 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:42:37,970 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:43:38,171 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:43:38,374 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:43:38,574 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:43:38,770 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:43:38,770 - INFO - CCB Criptoya - Compra: 1285.152, Venta: 1296.82
+2025-07-21 19:43:39,269 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:43:39,269 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:43:39,374 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:43:39,374 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:43:57,267 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:44:28,970 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 29.298
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55a3e887f7da <unknown>
+#1 0x55a3e83242e0 <unknown>
+#2 0x55a3e830c46c <unknown>
+#3 0x55a3e830c175 <unknown>
+#4 0x55a3e8309fd5 <unknown>
+#5 0x55a3e830a92f <unknown>
+#6 0x55a3e83193e3 <unknown>
+#7 0x55a3e833283e <unknown>
+#8 0x55a3e833907b <unknown>
+#9 0x55a3e830b070 <unknown>
+#10 0x55a3e8332499 <unknown>
+#11 0x55a3e83c1a79 <unknown>
+#12 0x55a3e839b683 <unknown>
+#13 0x55a3e8367b5b <unknown>
+#14 0x55a3e8368f31 <unknown>
+#15 0x55a3e884472b <unknown>
+#16 0x55a3e8848534 <unknown>
+#17 0x55a3e882b229 <unknown>
+#18 0x55a3e88490d8 <unknown>
+#19 0x55a3e880f61f <unknown>
+#20 0x55a3e886cdd8 <unknown>
+#21 0x55a3e886cfb6 <unknown>
+#22 0x55a3e887eaf6 <unknown>
+#23 0x728f03e9caa4 <unknown>
+#24 0x728f03f29c3c <unknown>
+
+2025-07-21 19:44:30,971 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:45:15,872 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: -12.897
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55a3e887f7da <unknown>
+#1 0x55a3e83242e0 <unknown>
+#2 0x55a3e830c46c <unknown>
+#3 0x55a3e830c175 <unknown>
+#4 0x55a3e8309fd5 <unknown>
+#5 0x55a3e830a92f <unknown>
+#6 0x55a3e83193e3 <unknown>
+#7 0x55a3e833283e <unknown>
+#8 0x55a3e833907b <unknown>
+#9 0x55a3e830b070 <unknown>
+#10 0x55a3e8332499 <unknown>
+#11 0x55a3e83c1a79 <unknown>
+#12 0x55a3e839b683 <unknown>
+#13 0x55a3e8367b5b <unknown>
+#14 0x55a3e8368f31 <unknown>
+#15 0x55a3e884472b <unknown>
+#16 0x55a3e8848534 <unknown>
+#17 0x55a3e882b229 <unknown>
+#18 0x55a3e88490d8 <unknown>
+#19 0x55a3e880f61f <unknown>
+#20 0x55a3e886cdd8 <unknown>
+#21 0x55a3e886cfb6 <unknown>
+#22 0x55a3e887eaf6 <unknown>
+#23 0x728f03e9caa4 <unknown>
+#24 0x728f03f29c3c <unknown>
+
+2025-07-21 19:45:15,872 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: -12.897
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55a3e887f7da <unknown>
+#1 0x55a3e83242e0 <unknown>
+#2 0x55a3e830c46c <unknown>
+#3 0x55a3e830c175 <unknown>
+#4 0x55a3e8309fd5 <unknown>
+#5 0x55a3e830a92f <unknown>
+#6 0x55a3e83193e3 <unknown>
+#7 0x55a3e833283e <unknown>
+#8 0x55a3e833907b <unknown>
+#9 0x55a3e830b070 <unknown>
+#10 0x55a3e8332499 <unknown>
+#11 0x55a3e83c1a79 <unknown>
+#12 0x55a3e839b683 <unknown>
+#13 0x55a3e8367b5b <unknown>
+#14 0x55a3e8368f31 <unknown>
+#15 0x55a3e884472b <unknown>
+#16 0x55a3e8848534 <unknown>
+#17 0x55a3e882b229 <unknown>
+#18 0x55a3e88490d8 <unknown>
+#19 0x55a3e880f61f <unknown>
+#20 0x55a3e886cdd8 <unknown>
+#21 0x55a3e886cfb6 <unknown>
+#22 0x55a3e887eaf6 <unknown>
+#23 0x728f03e9caa4 <unknown>
+#24 0x728f03f29c3c <unknown>
+
+2025-07-21 19:45:15,872 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:45:20,070 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:45:20,070 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:45:20,070 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:45:20,070 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:45:20,070 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:45:20,070 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 19:45:20,070 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:45:20,070 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:46:20,468 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:46:20,773 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:46:20,968 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:46:21,376 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:46:21,376 - INFO - CCB Criptoya - Compra: 1286.45, Venta: 1297.849
+2025-07-21 19:46:21,872 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:46:21,872 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:46:21,974 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:46:21,975 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:46:48,467 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:47:21,267 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 29.098
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bb7f985a7da <unknown>
+#1 0x5bb7f92ff2e0 <unknown>
+#2 0x5bb7f92e746c <unknown>
+#3 0x5bb7f92e7175 <unknown>
+#4 0x5bb7f92e4fd5 <unknown>
+#5 0x5bb7f92e592f <unknown>
+#6 0x5bb7f92f43e3 <unknown>
+#7 0x5bb7f930d83e <unknown>
+#8 0x5bb7f931407b <unknown>
+#9 0x5bb7f92e6070 <unknown>
+#10 0x5bb7f930d499 <unknown>
+#11 0x5bb7f939ca79 <unknown>
+#12 0x5bb7f9376683 <unknown>
+#13 0x5bb7f9342b5b <unknown>
+#14 0x5bb7f9343f31 <unknown>
+#15 0x5bb7f981f72b <unknown>
+#16 0x5bb7f9823534 <unknown>
+#17 0x5bb7f9806229 <unknown>
+#18 0x5bb7f98240d8 <unknown>
+#19 0x5bb7f97ea61f <unknown>
+#20 0x5bb7f9847dd8 <unknown>
+#21 0x5bb7f9847fb6 <unknown>
+#22 0x5bb7f9859af6 <unknown>
+#23 0x76dcdd69caa4 <unknown>
+#24 0x76dcdd729c3c <unknown>
+
+2025-07-21 19:47:23,271 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:47:54,468 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bb7f985a7da <unknown>
+#1 0x5bb7f92ff2e0 <unknown>
+#2 0x5bb7f92e746c <unknown>
+#3 0x5bb7f92e7175 <unknown>
+#4 0x5bb7f92e4fd5 <unknown>
+#5 0x5bb7f92e592f <unknown>
+#6 0x5bb7f92f43e3 <unknown>
+#7 0x5bb7f930d83e <unknown>
+#8 0x5bb7f931407b <unknown>
+#9 0x5bb7f92e6070 <unknown>
+#10 0x5bb7f930d499 <unknown>
+#11 0x5bb7f939c5f6 <unknown>
+#12 0x5bb7f9376683 <unknown>
+#13 0x5bb7f9342b5b <unknown>
+#14 0x5bb7f9343f31 <unknown>
+#15 0x5bb7f981f72b <unknown>
+#16 0x5bb7f9823534 <unknown>
+#17 0x5bb7f9806229 <unknown>
+#18 0x5bb7f98240d8 <unknown>
+#19 0x5bb7f97ea61f <unknown>
+#20 0x5bb7f9847dd8 <unknown>
+#21 0x5bb7f9847fb6 <unknown>
+#22 0x5bb7f9859af6 <unknown>
+#23 0x76dcdd69caa4 <unknown>
+#24 0x76dcdd729c3c <unknown>
+
+2025-07-21 19:47:54,469 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5bb7f985a7da <unknown>
+#1 0x5bb7f92ff2e0 <unknown>
+#2 0x5bb7f92e746c <unknown>
+#3 0x5bb7f92e7175 <unknown>
+#4 0x5bb7f92e4fd5 <unknown>
+#5 0x5bb7f92e592f <unknown>
+#6 0x5bb7f92f43e3 <unknown>
+#7 0x5bb7f930d83e <unknown>
+#8 0x5bb7f931407b <unknown>
+#9 0x5bb7f92e6070 <unknown>
+#10 0x5bb7f930d499 <unknown>
+#11 0x5bb7f939c5f6 <unknown>
+#12 0x5bb7f9376683 <unknown>
+#13 0x5bb7f9342b5b <unknown>
+#14 0x5bb7f9343f31 <unknown>
+#15 0x5bb7f981f72b <unknown>
+#16 0x5bb7f9823534 <unknown>
+#17 0x5bb7f9806229 <unknown>
+#18 0x5bb7f98240d8 <unknown>
+#19 0x5bb7f97ea61f <unknown>
+#20 0x5bb7f9847dd8 <unknown>
+#21 0x5bb7f9847fb6 <unknown>
+#22 0x5bb7f9859af6 <unknown>
+#23 0x76dcdd69caa4 <unknown>
+#24 0x76dcdd729c3c <unknown>
+
+2025-07-21 19:47:54,469 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:47:56,275 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:47:56,275 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:47:56,275 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:47:56,275 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:47:56,276 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:47:56,276 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 19:47:56,276 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:47:56,276 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:47:57,767 - INFO - Mensaje COTIBOT enviado: 💱 DÓLAR BLUE COTIBOT
+
+Compra: $1290.00  |  Venta: $1320.00
+Dirección: ⬇️ BAJÓ
+2025-07-21 19:48:57,970 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:48:58,168 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:48:58,468 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:48:58,668 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:48:58,668 - INFO - CCB Criptoya - Compra: 1287.372, Venta: 1299.399
+2025-07-21 19:48:59,167 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:48:59,167 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:48:59,267 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:48:59,268 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:49:19,376 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:49:53,174 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.103
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58d4fccd97da <unknown>
+#1 0x58d4fc77e2e0 <unknown>
+#2 0x58d4fc76646c <unknown>
+#3 0x58d4fc766175 <unknown>
+#4 0x58d4fc763fd5 <unknown>
+#5 0x58d4fc76492f <unknown>
+#6 0x58d4fc7733e3 <unknown>
+#7 0x58d4fc78c83e <unknown>
+#8 0x58d4fc79307b <unknown>
+#9 0x58d4fc765070 <unknown>
+#10 0x58d4fc78c499 <unknown>
+#11 0x58d4fc81ba79 <unknown>
+#12 0x58d4fc7f5683 <unknown>
+#13 0x58d4fc7c1b5b <unknown>
+#14 0x58d4fc7c2f31 <unknown>
+#15 0x58d4fcc9e72b <unknown>
+#16 0x58d4fcca2534 <unknown>
+#17 0x58d4fcc85229 <unknown>
+#18 0x58d4fcca30d8 <unknown>
+#19 0x58d4fcc6961f <unknown>
+#20 0x58d4fccc6dd8 <unknown>
+#21 0x58d4fccc6fb6 <unknown>
+#22 0x58d4fccd8af6 <unknown>
+#23 0x7f98cf69caa4 <unknown>
+#24 0x7f98cf729c3c <unknown>
+
+2025-07-21 19:49:55,175 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:50:30,176 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: -2.001
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58d4fccd97da <unknown>
+#1 0x58d4fc77e2e0 <unknown>
+#2 0x58d4fc76646c <unknown>
+#3 0x58d4fc766175 <unknown>
+#4 0x58d4fc763fd5 <unknown>
+#5 0x58d4fc76492f <unknown>
+#6 0x58d4fc7733e3 <unknown>
+#7 0x58d4fc78c83e <unknown>
+#8 0x58d4fc79307b <unknown>
+#9 0x58d4fc765070 <unknown>
+#10 0x58d4fc78c499 <unknown>
+#11 0x58d4fc81b5f6 <unknown>
+#12 0x58d4fc7f5683 <unknown>
+#13 0x58d4fc7c1b5b <unknown>
+#14 0x58d4fc7c2f31 <unknown>
+#15 0x58d4fcc9e72b <unknown>
+#16 0x58d4fcca2534 <unknown>
+#17 0x58d4fcc85229 <unknown>
+#18 0x58d4fcca30d8 <unknown>
+#19 0x58d4fcc6961f <unknown>
+#20 0x58d4fccc6dd8 <unknown>
+#21 0x58d4fccc6fb6 <unknown>
+#22 0x58d4fccd8af6 <unknown>
+#23 0x7f98cf69caa4 <unknown>
+#24 0x7f98cf729c3c <unknown>
+
+2025-07-21 19:50:30,176 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: -2.001
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58d4fccd97da <unknown>
+#1 0x58d4fc77e2e0 <unknown>
+#2 0x58d4fc76646c <unknown>
+#3 0x58d4fc766175 <unknown>
+#4 0x58d4fc763fd5 <unknown>
+#5 0x58d4fc76492f <unknown>
+#6 0x58d4fc7733e3 <unknown>
+#7 0x58d4fc78c83e <unknown>
+#8 0x58d4fc79307b <unknown>
+#9 0x58d4fc765070 <unknown>
+#10 0x58d4fc78c499 <unknown>
+#11 0x58d4fc81b5f6 <unknown>
+#12 0x58d4fc7f5683 <unknown>
+#13 0x58d4fc7c1b5b <unknown>
+#14 0x58d4fc7c2f31 <unknown>
+#15 0x58d4fcc9e72b <unknown>
+#16 0x58d4fcca2534 <unknown>
+#17 0x58d4fcc85229 <unknown>
+#18 0x58d4fcca30d8 <unknown>
+#19 0x58d4fcc6961f <unknown>
+#20 0x58d4fccc6dd8 <unknown>
+#21 0x58d4fccc6fb6 <unknown>
+#22 0x58d4fccd8af6 <unknown>
+#23 0x7f98cf69caa4 <unknown>
+#24 0x7f98cf729c3c <unknown>
+
+2025-07-21 19:50:30,176 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:50:32,173 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:50:32,173 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:50:32,173 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:50:32,173 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:50:32,173 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:50:32,173 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 19:50:32,173 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:50:32,173 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:51:32,568 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:51:33,068 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:51:33,275 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:51:33,470 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:51:33,470 - INFO - CCB Criptoya - Compra: 1286.595, Venta: 1298.112
+2025-07-21 19:51:33,868 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:51:33,868 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:51:33,968 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:51:33,968 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:51:53,570 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:52:29,169 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a6e1bc8e7da <unknown>
+#1 0x5a6e1b7332e0 <unknown>
+#2 0x5a6e1b71b46c <unknown>
+#3 0x5a6e1b71b175 <unknown>
+#4 0x5a6e1b718fd5 <unknown>
+#5 0x5a6e1b71992f <unknown>
+#6 0x5a6e1b7283e3 <unknown>
+#7 0x5a6e1b74183e <unknown>
+#8 0x5a6e1b74807b <unknown>
+#9 0x5a6e1b71a070 <unknown>
+#10 0x5a6e1b741499 <unknown>
+#11 0x5a6e1b7d05f6 <unknown>
+#12 0x5a6e1b7aa683 <unknown>
+#13 0x5a6e1b776b5b <unknown>
+#14 0x5a6e1b777f31 <unknown>
+#15 0x5a6e1bc5372b <unknown>
+#16 0x5a6e1bc57534 <unknown>
+#17 0x5a6e1bc3a229 <unknown>
+#18 0x5a6e1bc580d8 <unknown>
+#19 0x5a6e1bc1e61f <unknown>
+#20 0x5a6e1bc7bdd8 <unknown>
+#21 0x5a6e1bc7bfb6 <unknown>
+#22 0x5a6e1bc8daf6 <unknown>
+#23 0x775e11a9caa4 <unknown>
+#24 0x775e11b29c3c <unknown>
+
+2025-07-21 19:52:31,169 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:53:02,875 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 16.897
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a6e1bc8e7da <unknown>
+#1 0x5a6e1b7332e0 <unknown>
+#2 0x5a6e1b71b46c <unknown>
+#3 0x5a6e1b71b175 <unknown>
+#4 0x5a6e1b718fd5 <unknown>
+#5 0x5a6e1b71992f <unknown>
+#6 0x5a6e1b7283e3 <unknown>
+#7 0x5a6e1b74183e <unknown>
+#8 0x5a6e1b74807b <unknown>
+#9 0x5a6e1b71a070 <unknown>
+#10 0x5a6e1b741499 <unknown>
+#11 0x5a6e1b7d0a79 <unknown>
+#12 0x5a6e1b7aa683 <unknown>
+#13 0x5a6e1b776b5b <unknown>
+#14 0x5a6e1b777f31 <unknown>
+#15 0x5a6e1bc5372b <unknown>
+#16 0x5a6e1bc57534 <unknown>
+#17 0x5a6e1bc3a229 <unknown>
+#18 0x5a6e1bc580d8 <unknown>
+#19 0x5a6e1bc1e61f <unknown>
+#20 0x5a6e1bc7bdd8 <unknown>
+#21 0x5a6e1bc7bfb6 <unknown>
+#22 0x5a6e1bc8daf6 <unknown>
+#23 0x775e11a9caa4 <unknown>
+#24 0x775e11b29c3c <unknown>
+
+2025-07-21 19:53:02,876 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 16.897
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a6e1bc8e7da <unknown>
+#1 0x5a6e1b7332e0 <unknown>
+#2 0x5a6e1b71b46c <unknown>
+#3 0x5a6e1b71b175 <unknown>
+#4 0x5a6e1b718fd5 <unknown>
+#5 0x5a6e1b71992f <unknown>
+#6 0x5a6e1b7283e3 <unknown>
+#7 0x5a6e1b74183e <unknown>
+#8 0x5a6e1b74807b <unknown>
+#9 0x5a6e1b71a070 <unknown>
+#10 0x5a6e1b741499 <unknown>
+#11 0x5a6e1b7d0a79 <unknown>
+#12 0x5a6e1b7aa683 <unknown>
+#13 0x5a6e1b776b5b <unknown>
+#14 0x5a6e1b777f31 <unknown>
+#15 0x5a6e1bc5372b <unknown>
+#16 0x5a6e1bc57534 <unknown>
+#17 0x5a6e1bc3a229 <unknown>
+#18 0x5a6e1bc580d8 <unknown>
+#19 0x5a6e1bc1e61f <unknown>
+#20 0x5a6e1bc7bdd8 <unknown>
+#21 0x5a6e1bc7bfb6 <unknown>
+#22 0x5a6e1bc8daf6 <unknown>
+#23 0x775e11a9caa4 <unknown>
+#24 0x775e11b29c3c <unknown>
+
+2025-07-21 19:53:02,876 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:53:04,667 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:53:04,667 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:53:04,667 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:53:04,667 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:53:04,667 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:53:04,667 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 19:53:04,667 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:53:04,667 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:54:05,077 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:54:05,368 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:54:05,568 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:54:05,874 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:54:05,874 - INFO - CCB Criptoya - Compra: 1286.405, Venta: 1299.399
+2025-07-21 19:54:06,369 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:54:06,370 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:54:06,470 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:54:06,470 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:54:24,073 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:54:55,270 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 27.603
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e40781227da <unknown>
+#1 0x5e4077bc72e0 <unknown>
+#2 0x5e4077baf46c <unknown>
+#3 0x5e4077baf175 <unknown>
+#4 0x5e4077bacfd5 <unknown>
+#5 0x5e4077bad92f <unknown>
+#6 0x5e4077bbc3e3 <unknown>
+#7 0x5e4077bd583e <unknown>
+#8 0x5e4077bdc07b <unknown>
+#9 0x5e4077bae070 <unknown>
+#10 0x5e4077bd5499 <unknown>
+#11 0x5e4077c64a79 <unknown>
+#12 0x5e4077c3e683 <unknown>
+#13 0x5e4077c0ab5b <unknown>
+#14 0x5e4077c0bf31 <unknown>
+#15 0x5e40780e772b <unknown>
+#16 0x5e40780eb534 <unknown>
+#17 0x5e40780ce229 <unknown>
+#18 0x5e40780ec0d8 <unknown>
+#19 0x5e40780b261f <unknown>
+#20 0x5e407810fdd8 <unknown>
+#21 0x5e407810ffb6 <unknown>
+#22 0x5e4078121af6 <unknown>
+#23 0x78107b29caa4 <unknown>
+#24 0x78107b329c3c <unknown>
+
+2025-07-21 19:54:57,775 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:55:30,869 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 21.997
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e40781227da <unknown>
+#1 0x5e4077bc72e0 <unknown>
+#2 0x5e4077baf46c <unknown>
+#3 0x5e4077baf175 <unknown>
+#4 0x5e4077bacfd5 <unknown>
+#5 0x5e4077bad92f <unknown>
+#6 0x5e4077bbc3e3 <unknown>
+#7 0x5e4077bd583e <unknown>
+#8 0x5e4077bdc07b <unknown>
+#9 0x5e4077bae070 <unknown>
+#10 0x5e4077bd5499 <unknown>
+#11 0x5e4077c64a79 <unknown>
+#12 0x5e4077c3e683 <unknown>
+#13 0x5e4077c0ab5b <unknown>
+#14 0x5e4077c0bf31 <unknown>
+#15 0x5e40780e772b <unknown>
+#16 0x5e40780eb534 <unknown>
+#17 0x5e40780ce229 <unknown>
+#18 0x5e40780ec0d8 <unknown>
+#19 0x5e40780b261f <unknown>
+#20 0x5e407810fdd8 <unknown>
+#21 0x5e407810ffb6 <unknown>
+#22 0x5e4078121af6 <unknown>
+#23 0x78107b29caa4 <unknown>
+#24 0x78107b329c3c <unknown>
+
+2025-07-21 19:55:30,870 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 21.997
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5e40781227da <unknown>
+#1 0x5e4077bc72e0 <unknown>
+#2 0x5e4077baf46c <unknown>
+#3 0x5e4077baf175 <unknown>
+#4 0x5e4077bacfd5 <unknown>
+#5 0x5e4077bad92f <unknown>
+#6 0x5e4077bbc3e3 <unknown>
+#7 0x5e4077bd583e <unknown>
+#8 0x5e4077bdc07b <unknown>
+#9 0x5e4077bae070 <unknown>
+#10 0x5e4077bd5499 <unknown>
+#11 0x5e4077c64a79 <unknown>
+#12 0x5e4077c3e683 <unknown>
+#13 0x5e4077c0ab5b <unknown>
+#14 0x5e4077c0bf31 <unknown>
+#15 0x5e40780e772b <unknown>
+#16 0x5e40780eb534 <unknown>
+#17 0x5e40780ce229 <unknown>
+#18 0x5e40780ec0d8 <unknown>
+#19 0x5e40780b261f <unknown>
+#20 0x5e407810fdd8 <unknown>
+#21 0x5e407810ffb6 <unknown>
+#22 0x5e4078121af6 <unknown>
+#23 0x78107b29caa4 <unknown>
+#24 0x78107b329c3c <unknown>
+
+2025-07-21 19:55:30,870 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:55:34,971 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:55:34,972 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:55:34,972 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:55:34,972 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:55:34,972 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:55:34,972 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 19:55:34,972 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:55:34,972 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:56:35,170 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:56:35,368 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:56:35,569 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:56:35,776 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:56:35,776 - INFO - CCB Criptoya - Compra: 1286.309, Venta: 1299.303
+2025-07-21 19:56:36,470 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:56:36,470 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:56:36,568 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:56:36,568 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:57:04,278 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 19:57:36,668 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 27.106
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55b4120977da <unknown>
+#1 0x55b411b3c2e0 <unknown>
+#2 0x55b411b2446c <unknown>
+#3 0x55b411b24175 <unknown>
+#4 0x55b411b21fd5 <unknown>
+#5 0x55b411b2292f <unknown>
+#6 0x55b411b313e3 <unknown>
+#7 0x55b411b4a83e <unknown>
+#8 0x55b411b5107b <unknown>
+#9 0x55b411b23070 <unknown>
+#10 0x55b411b4a499 <unknown>
+#11 0x55b411bd9a79 <unknown>
+#12 0x55b411bb3683 <unknown>
+#13 0x55b411b7fb5b <unknown>
+#14 0x55b411b80f31 <unknown>
+#15 0x55b41205c72b <unknown>
+#16 0x55b412060534 <unknown>
+#17 0x55b412043229 <unknown>
+#18 0x55b4120610d8 <unknown>
+#19 0x55b41202761f <unknown>
+#20 0x55b412084dd8 <unknown>
+#21 0x55b412084fb6 <unknown>
+#22 0x55b412096af6 <unknown>
+#23 0x7c68d689caa4 <unknown>
+#24 0x7c68d6929c3c <unknown>
+
+2025-07-21 19:57:38,773 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 19:58:11,671 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 16.505
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55b4120977da <unknown>
+#1 0x55b411b3c2e0 <unknown>
+#2 0x55b411b2446c <unknown>
+#3 0x55b411b24175 <unknown>
+#4 0x55b411b21fd5 <unknown>
+#5 0x55b411b2292f <unknown>
+#6 0x55b411b313e3 <unknown>
+#7 0x55b411b4a83e <unknown>
+#8 0x55b411b5107b <unknown>
+#9 0x55b411b23070 <unknown>
+#10 0x55b411b4a499 <unknown>
+#11 0x55b411bd9a79 <unknown>
+#12 0x55b411bb3683 <unknown>
+#13 0x55b411b7fb5b <unknown>
+#14 0x55b411b80f31 <unknown>
+#15 0x55b41205c72b <unknown>
+#16 0x55b412060534 <unknown>
+#17 0x55b412043229 <unknown>
+#18 0x55b4120610d8 <unknown>
+#19 0x55b41202761f <unknown>
+#20 0x55b412084dd8 <unknown>
+#21 0x55b412084fb6 <unknown>
+#22 0x55b412096af6 <unknown>
+#23 0x7c68d689caa4 <unknown>
+#24 0x7c68d6929c3c <unknown>
+
+2025-07-21 19:58:11,672 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 16.505
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x55b4120977da <unknown>
+#1 0x55b411b3c2e0 <unknown>
+#2 0x55b411b2446c <unknown>
+#3 0x55b411b24175 <unknown>
+#4 0x55b411b21fd5 <unknown>
+#5 0x55b411b2292f <unknown>
+#6 0x55b411b313e3 <unknown>
+#7 0x55b411b4a83e <unknown>
+#8 0x55b411b5107b <unknown>
+#9 0x55b411b23070 <unknown>
+#10 0x55b411b4a499 <unknown>
+#11 0x55b411bd9a79 <unknown>
+#12 0x55b411bb3683 <unknown>
+#13 0x55b411b7fb5b <unknown>
+#14 0x55b411b80f31 <unknown>
+#15 0x55b41205c72b <unknown>
+#16 0x55b412060534 <unknown>
+#17 0x55b412043229 <unknown>
+#18 0x55b4120610d8 <unknown>
+#19 0x55b41202761f <unknown>
+#20 0x55b412084dd8 <unknown>
+#21 0x55b412084fb6 <unknown>
+#22 0x55b412096af6 <unknown>
+#23 0x7c68d689caa4 <unknown>
+#24 0x7c68d6929c3c <unknown>
+
+2025-07-21 19:58:11,672 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 19:58:14,569 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 19:58:14,569 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 19:58:14,570 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 19:58:14,570 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 19:58:14,570 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 19:58:14,570 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 19:58:14,570 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 19:58:14,570 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 19:59:14,868 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:59:15,174 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:59:15,373 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 19:59:15,568 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:59:15,568 - INFO - CCB Criptoya - Compra: 1286.445, Venta: 1299.44
+2025-07-21 19:59:16,068 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 19:59:16,068 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 19:59:16,168 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 19:59:16,168 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 19:59:36,768 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:00:07,872 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.198
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5c9c1cbae7da <unknown>
+#1 0x5c9c1c6532e0 <unknown>
+#2 0x5c9c1c63b46c <unknown>
+#3 0x5c9c1c63b175 <unknown>
+#4 0x5c9c1c638fd5 <unknown>
+#5 0x5c9c1c63992f <unknown>
+#6 0x5c9c1c6483e3 <unknown>
+#7 0x5c9c1c66183e <unknown>
+#8 0x5c9c1c66807b <unknown>
+#9 0x5c9c1c63a070 <unknown>
+#10 0x5c9c1c661499 <unknown>
+#11 0x5c9c1c6f0a79 <unknown>
+#12 0x5c9c1c6ca683 <unknown>
+#13 0x5c9c1c696b5b <unknown>
+#14 0x5c9c1c697f31 <unknown>
+#15 0x5c9c1cb7372b <unknown>
+#16 0x5c9c1cb77534 <unknown>
+#17 0x5c9c1cb5a229 <unknown>
+#18 0x5c9c1cb780d8 <unknown>
+#19 0x5c9c1cb3e61f <unknown>
+#20 0x5c9c1cb9bdd8 <unknown>
+#21 0x5c9c1cb9bfb6 <unknown>
+#22 0x5c9c1cbadaf6 <unknown>
+#23 0x78ad18a9caa4 <unknown>
+#24 0x78ad18b29c3c <unknown>
+
+2025-07-21 20:00:09,873 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:00:43,574 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: -0.202
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5c9c1cbae7da <unknown>
+#1 0x5c9c1c6532e0 <unknown>
+#2 0x5c9c1c63b46c <unknown>
+#3 0x5c9c1c63b175 <unknown>
+#4 0x5c9c1c638fd5 <unknown>
+#5 0x5c9c1c63992f <unknown>
+#6 0x5c9c1c6483e3 <unknown>
+#7 0x5c9c1c66183e <unknown>
+#8 0x5c9c1c66807b <unknown>
+#9 0x5c9c1c63a070 <unknown>
+#10 0x5c9c1c661499 <unknown>
+#11 0x5c9c1c6f05f6 <unknown>
+#12 0x5c9c1c6ca683 <unknown>
+#13 0x5c9c1c696b5b <unknown>
+#14 0x5c9c1c697f31 <unknown>
+#15 0x5c9c1cb7372b <unknown>
+#16 0x5c9c1cb77534 <unknown>
+#17 0x5c9c1cb5a229 <unknown>
+#18 0x5c9c1cb780d8 <unknown>
+#19 0x5c9c1cb3e61f <unknown>
+#20 0x5c9c1cb9bdd8 <unknown>
+#21 0x5c9c1cb9bfb6 <unknown>
+#22 0x5c9c1cbadaf6 <unknown>
+#23 0x78ad18a9caa4 <unknown>
+#24 0x78ad18b29c3c <unknown>
+
+2025-07-21 20:00:43,574 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: -0.202
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5c9c1cbae7da <unknown>
+#1 0x5c9c1c6532e0 <unknown>
+#2 0x5c9c1c63b46c <unknown>
+#3 0x5c9c1c63b175 <unknown>
+#4 0x5c9c1c638fd5 <unknown>
+#5 0x5c9c1c63992f <unknown>
+#6 0x5c9c1c6483e3 <unknown>
+#7 0x5c9c1c66183e <unknown>
+#8 0x5c9c1c66807b <unknown>
+#9 0x5c9c1c63a070 <unknown>
+#10 0x5c9c1c661499 <unknown>
+#11 0x5c9c1c6f05f6 <unknown>
+#12 0x5c9c1c6ca683 <unknown>
+#13 0x5c9c1c696b5b <unknown>
+#14 0x5c9c1c697f31 <unknown>
+#15 0x5c9c1cb7372b <unknown>
+#16 0x5c9c1cb77534 <unknown>
+#17 0x5c9c1cb5a229 <unknown>
+#18 0x5c9c1cb780d8 <unknown>
+#19 0x5c9c1cb3e61f <unknown>
+#20 0x5c9c1cb9bdd8 <unknown>
+#21 0x5c9c1cb9bfb6 <unknown>
+#22 0x5c9c1cbadaf6 <unknown>
+#23 0x78ad18a9caa4 <unknown>
+#24 0x78ad18b29c3c <unknown>
+
+2025-07-21 20:00:43,574 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:00:48,367 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:00:48,368 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:00:48,368 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:00:48,368 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:00:48,368 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:00:48,368 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:00:48,368 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:00:48,368 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:01:48,673 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:01:48,868 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:01:49,071 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:01:49,268 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:01:49,268 - INFO - CCB Criptoya - Compra: 1286.531, Venta: 1299.526
+2025-07-21 20:01:49,770 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:01:49,771 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:01:49,868 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:01:49,868 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:02:25,769 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:02:58,269 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.303
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x604a99c197da <unknown>
+#1 0x604a996be2e0 <unknown>
+#2 0x604a996a646c <unknown>
+#3 0x604a996a6175 <unknown>
+#4 0x604a996a3fd5 <unknown>
+#5 0x604a996a492f <unknown>
+#6 0x604a996b33e3 <unknown>
+#7 0x604a996cc83e <unknown>
+#8 0x604a996d307b <unknown>
+#9 0x604a996a5070 <unknown>
+#10 0x604a996cc499 <unknown>
+#11 0x604a9975ba79 <unknown>
+#12 0x604a99735683 <unknown>
+#13 0x604a99701b5b <unknown>
+#14 0x604a99702f31 <unknown>
+#15 0x604a99bde72b <unknown>
+#16 0x604a99be2534 <unknown>
+#17 0x604a99bc5229 <unknown>
+#18 0x604a99be30d8 <unknown>
+#19 0x604a99ba961f <unknown>
+#20 0x604a99c06dd8 <unknown>
+#21 0x604a99c06fb6 <unknown>
+#22 0x604a99c18af6 <unknown>
+#23 0x76f08a69caa4 <unknown>
+#24 0x76f08a729c3c <unknown>
+
+2025-07-21 20:03:00,271 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:03:32,075 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 22.200
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x604a99c197da <unknown>
+#1 0x604a996be2e0 <unknown>
+#2 0x604a996a646c <unknown>
+#3 0x604a996a6175 <unknown>
+#4 0x604a996a3fd5 <unknown>
+#5 0x604a996a492f <unknown>
+#6 0x604a996b33e3 <unknown>
+#7 0x604a996cc83e <unknown>
+#8 0x604a996d307b <unknown>
+#9 0x604a996a5070 <unknown>
+#10 0x604a996cc499 <unknown>
+#11 0x604a9975ba79 <unknown>
+#12 0x604a99735683 <unknown>
+#13 0x604a99701b5b <unknown>
+#14 0x604a99702f31 <unknown>
+#15 0x604a99bde72b <unknown>
+#16 0x604a99be2534 <unknown>
+#17 0x604a99bc5229 <unknown>
+#18 0x604a99be30d8 <unknown>
+#19 0x604a99ba961f <unknown>
+#20 0x604a99c06dd8 <unknown>
+#21 0x604a99c06fb6 <unknown>
+#22 0x604a99c18af6 <unknown>
+#23 0x76f08a69caa4 <unknown>
+#24 0x76f08a729c3c <unknown>
+
+2025-07-21 20:03:32,075 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 22.200
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x604a99c197da <unknown>
+#1 0x604a996be2e0 <unknown>
+#2 0x604a996a646c <unknown>
+#3 0x604a996a6175 <unknown>
+#4 0x604a996a3fd5 <unknown>
+#5 0x604a996a492f <unknown>
+#6 0x604a996b33e3 <unknown>
+#7 0x604a996cc83e <unknown>
+#8 0x604a996d307b <unknown>
+#9 0x604a996a5070 <unknown>
+#10 0x604a996cc499 <unknown>
+#11 0x604a9975ba79 <unknown>
+#12 0x604a99735683 <unknown>
+#13 0x604a99701b5b <unknown>
+#14 0x604a99702f31 <unknown>
+#15 0x604a99bde72b <unknown>
+#16 0x604a99be2534 <unknown>
+#17 0x604a99bc5229 <unknown>
+#18 0x604a99be30d8 <unknown>
+#19 0x604a99ba961f <unknown>
+#20 0x604a99c06dd8 <unknown>
+#21 0x604a99c06fb6 <unknown>
+#22 0x604a99c18af6 <unknown>
+#23 0x76f08a69caa4 <unknown>
+#24 0x76f08a729c3c <unknown>
+
+2025-07-21 20:03:32,075 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:03:35,674 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:03:35,674 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:03:35,674 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:03:35,674 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:03:35,674 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:03:35,674 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:03:35,674 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:03:35,674 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:04:36,471 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:04:36,677 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:04:36,868 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:04:37,471 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:04:37,472 - INFO - CCB Criptoya - Compra: 1286.781, Venta: 1299.504
+2025-07-21 20:04:37,768 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:04:37,768 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:04:37,872 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:04:37,872 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:04:56,673 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:05:30,071 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.706
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a8eb6c4f7da <unknown>
+#1 0x5a8eb66f42e0 <unknown>
+#2 0x5a8eb66dc46c <unknown>
+#3 0x5a8eb66dc175 <unknown>
+#4 0x5a8eb66d9fd5 <unknown>
+#5 0x5a8eb66da92f <unknown>
+#6 0x5a8eb66e93e3 <unknown>
+#7 0x5a8eb670283e <unknown>
+#8 0x5a8eb670907b <unknown>
+#9 0x5a8eb66db070 <unknown>
+#10 0x5a8eb6702499 <unknown>
+#11 0x5a8eb6791a79 <unknown>
+#12 0x5a8eb676b683 <unknown>
+#13 0x5a8eb6737b5b <unknown>
+#14 0x5a8eb6738f31 <unknown>
+#15 0x5a8eb6c1472b <unknown>
+#16 0x5a8eb6c18534 <unknown>
+#17 0x5a8eb6bfb229 <unknown>
+#18 0x5a8eb6c190d8 <unknown>
+#19 0x5a8eb6bdf61f <unknown>
+#20 0x5a8eb6c3cdd8 <unknown>
+#21 0x5a8eb6c3cfb6 <unknown>
+#22 0x5a8eb6c4eaf6 <unknown>
+#23 0x780183c9caa4 <unknown>
+#24 0x780183d29c3c <unknown>
+
+2025-07-21 20:05:32,167 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:06:03,869 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a8eb6c4f7da <unknown>
+#1 0x5a8eb66f42e0 <unknown>
+#2 0x5a8eb66dc46c <unknown>
+#3 0x5a8eb66dc175 <unknown>
+#4 0x5a8eb66d9fd5 <unknown>
+#5 0x5a8eb66da92f <unknown>
+#6 0x5a8eb66e93e3 <unknown>
+#7 0x5a8eb670283e <unknown>
+#8 0x5a8eb670907b <unknown>
+#9 0x5a8eb66db070 <unknown>
+#10 0x5a8eb6702499 <unknown>
+#11 0x5a8eb67915f6 <unknown>
+#12 0x5a8eb676b683 <unknown>
+#13 0x5a8eb6737b5b <unknown>
+#14 0x5a8eb6738f31 <unknown>
+#15 0x5a8eb6c1472b <unknown>
+#16 0x5a8eb6c18534 <unknown>
+#17 0x5a8eb6bfb229 <unknown>
+#18 0x5a8eb6c190d8 <unknown>
+#19 0x5a8eb6bdf61f <unknown>
+#20 0x5a8eb6c3cdd8 <unknown>
+#21 0x5a8eb6c3cfb6 <unknown>
+#22 0x5a8eb6c4eaf6 <unknown>
+#23 0x780183c9caa4 <unknown>
+#24 0x780183d29c3c <unknown>
+
+2025-07-21 20:06:03,870 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5a8eb6c4f7da <unknown>
+#1 0x5a8eb66f42e0 <unknown>
+#2 0x5a8eb66dc46c <unknown>
+#3 0x5a8eb66dc175 <unknown>
+#4 0x5a8eb66d9fd5 <unknown>
+#5 0x5a8eb66da92f <unknown>
+#6 0x5a8eb66e93e3 <unknown>
+#7 0x5a8eb670283e <unknown>
+#8 0x5a8eb670907b <unknown>
+#9 0x5a8eb66db070 <unknown>
+#10 0x5a8eb6702499 <unknown>
+#11 0x5a8eb67915f6 <unknown>
+#12 0x5a8eb676b683 <unknown>
+#13 0x5a8eb6737b5b <unknown>
+#14 0x5a8eb6738f31 <unknown>
+#15 0x5a8eb6c1472b <unknown>
+#16 0x5a8eb6c18534 <unknown>
+#17 0x5a8eb6bfb229 <unknown>
+#18 0x5a8eb6c190d8 <unknown>
+#19 0x5a8eb6bdf61f <unknown>
+#20 0x5a8eb6c3cdd8 <unknown>
+#21 0x5a8eb6c3cfb6 <unknown>
+#22 0x5a8eb6c4eaf6 <unknown>
+#23 0x780183c9caa4 <unknown>
+#24 0x780183d29c3c <unknown>
+
+2025-07-21 20:06:03,870 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:06:06,577 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:06:06,577 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:06:06,577 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:06:06,577 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:06:06,577 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:06:06,577 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:06:06,577 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:06:06,577 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:07:06,767 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:07:06,968 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:07:07,168 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:07:07,371 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:07:07,372 - INFO - CCB Criptoya - Compra: 1286.55, Venta: 1299.445
+2025-07-21 20:07:08,069 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:07:08,069 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:07:08,374 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:07:08,374 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:07:38,475 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:08:09,968 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.609
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ebd2f7017da <unknown>
+#1 0x5ebd2f1a62e0 <unknown>
+#2 0x5ebd2f18e46c <unknown>
+#3 0x5ebd2f18e175 <unknown>
+#4 0x5ebd2f18bfd5 <unknown>
+#5 0x5ebd2f18c92f <unknown>
+#6 0x5ebd2f19b3e3 <unknown>
+#7 0x5ebd2f1b483e <unknown>
+#8 0x5ebd2f1bb07b <unknown>
+#9 0x5ebd2f18d070 <unknown>
+#10 0x5ebd2f1b4499 <unknown>
+#11 0x5ebd2f243a79 <unknown>
+#12 0x5ebd2f21d683 <unknown>
+#13 0x5ebd2f1e9b5b <unknown>
+#14 0x5ebd2f1eaf31 <unknown>
+#15 0x5ebd2f6c672b <unknown>
+#16 0x5ebd2f6ca534 <unknown>
+#17 0x5ebd2f6ad229 <unknown>
+#18 0x5ebd2f6cb0d8 <unknown>
+#19 0x5ebd2f69161f <unknown>
+#20 0x5ebd2f6eedd8 <unknown>
+#21 0x5ebd2f6eefb6 <unknown>
+#22 0x5ebd2f700af6 <unknown>
+#23 0x74c7e889caa4 <unknown>
+#24 0x74c7e8929c3c <unknown>
+
+2025-07-21 20:08:11,968 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:08:44,470 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: -1.101
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ebd2f7017da <unknown>
+#1 0x5ebd2f1a62e0 <unknown>
+#2 0x5ebd2f18e46c <unknown>
+#3 0x5ebd2f18e175 <unknown>
+#4 0x5ebd2f18bfd5 <unknown>
+#5 0x5ebd2f18c92f <unknown>
+#6 0x5ebd2f19b3e3 <unknown>
+#7 0x5ebd2f1b483e <unknown>
+#8 0x5ebd2f1bb07b <unknown>
+#9 0x5ebd2f18d070 <unknown>
+#10 0x5ebd2f1b4499 <unknown>
+#11 0x5ebd2f243a79 <unknown>
+#12 0x5ebd2f21d683 <unknown>
+#13 0x5ebd2f1e9b5b <unknown>
+#14 0x5ebd2f1eaf31 <unknown>
+#15 0x5ebd2f6c672b <unknown>
+#16 0x5ebd2f6ca534 <unknown>
+#17 0x5ebd2f6ad229 <unknown>
+#18 0x5ebd2f6cb0d8 <unknown>
+#19 0x5ebd2f69161f <unknown>
+#20 0x5ebd2f6eedd8 <unknown>
+#21 0x5ebd2f6eefb6 <unknown>
+#22 0x5ebd2f700af6 <unknown>
+#23 0x74c7e889caa4 <unknown>
+#24 0x74c7e8929c3c <unknown>
+
+2025-07-21 20:08:44,470 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: -1.101
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x5ebd2f7017da <unknown>
+#1 0x5ebd2f1a62e0 <unknown>
+#2 0x5ebd2f18e46c <unknown>
+#3 0x5ebd2f18e175 <unknown>
+#4 0x5ebd2f18bfd5 <unknown>
+#5 0x5ebd2f18c92f <unknown>
+#6 0x5ebd2f19b3e3 <unknown>
+#7 0x5ebd2f1b483e <unknown>
+#8 0x5ebd2f1bb07b <unknown>
+#9 0x5ebd2f18d070 <unknown>
+#10 0x5ebd2f1b4499 <unknown>
+#11 0x5ebd2f243a79 <unknown>
+#12 0x5ebd2f21d683 <unknown>
+#13 0x5ebd2f1e9b5b <unknown>
+#14 0x5ebd2f1eaf31 <unknown>
+#15 0x5ebd2f6c672b <unknown>
+#16 0x5ebd2f6ca534 <unknown>
+#17 0x5ebd2f6ad229 <unknown>
+#18 0x5ebd2f6cb0d8 <unknown>
+#19 0x5ebd2f69161f <unknown>
+#20 0x5ebd2f6eedd8 <unknown>
+#21 0x5ebd2f6eefb6 <unknown>
+#22 0x5ebd2f700af6 <unknown>
+#23 0x74c7e889caa4 <unknown>
+#24 0x74c7e8929c3c <unknown>
+
+2025-07-21 20:08:44,470 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:08:46,074 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:08:46,074 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:08:46,074 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:08:46,074 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:08:46,074 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:08:46,074 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:08:46,074 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:08:46,074 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:09:46,766 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:09:46,967 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:09:47,177 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:09:47,367 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:09:47,367 - INFO - CCB Criptoya - Compra: 1286.471, Venta: 1299.466
+2025-07-21 20:09:48,067 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:09:48,067 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:09:48,167 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:09:48,167 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:10:07,373 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:10:39,373 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.502
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58e3d6a7c7da <unknown>
+#1 0x58e3d65212e0 <unknown>
+#2 0x58e3d650946c <unknown>
+#3 0x58e3d6509175 <unknown>
+#4 0x58e3d6506fd5 <unknown>
+#5 0x58e3d650792f <unknown>
+#6 0x58e3d65163e3 <unknown>
+#7 0x58e3d652f83e <unknown>
+#8 0x58e3d653607b <unknown>
+#9 0x58e3d6508070 <unknown>
+#10 0x58e3d652f499 <unknown>
+#11 0x58e3d65bea79 <unknown>
+#12 0x58e3d6598683 <unknown>
+#13 0x58e3d6564b5b <unknown>
+#14 0x58e3d6565f31 <unknown>
+#15 0x58e3d6a4172b <unknown>
+#16 0x58e3d6a45534 <unknown>
+#17 0x58e3d6a28229 <unknown>
+#18 0x58e3d6a460d8 <unknown>
+#19 0x58e3d6a0c61f <unknown>
+#20 0x58e3d6a69dd8 <unknown>
+#21 0x58e3d6a69fb6 <unknown>
+#22 0x58e3d6a7baf6 <unknown>
+#23 0x752456a9caa4 <unknown>
+#24 0x752456b29c3c <unknown>
+
+2025-07-21 20:10:42,068 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:11:13,872 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 14.295
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58e3d6a7c7da <unknown>
+#1 0x58e3d65212e0 <unknown>
+#2 0x58e3d650946c <unknown>
+#3 0x58e3d6509175 <unknown>
+#4 0x58e3d6506fd5 <unknown>
+#5 0x58e3d650792f <unknown>
+#6 0x58e3d65163e3 <unknown>
+#7 0x58e3d652f83e <unknown>
+#8 0x58e3d653607b <unknown>
+#9 0x58e3d6508070 <unknown>
+#10 0x58e3d652f499 <unknown>
+#11 0x58e3d65bea79 <unknown>
+#12 0x58e3d6598683 <unknown>
+#13 0x58e3d6564b5b <unknown>
+#14 0x58e3d6565f31 <unknown>
+#15 0x58e3d6a4172b <unknown>
+#16 0x58e3d6a45534 <unknown>
+#17 0x58e3d6a28229 <unknown>
+#18 0x58e3d6a460d8 <unknown>
+#19 0x58e3d6a0c61f <unknown>
+#20 0x58e3d6a69dd8 <unknown>
+#21 0x58e3d6a69fb6 <unknown>
+#22 0x58e3d6a7baf6 <unknown>
+#23 0x752456a9caa4 <unknown>
+#24 0x752456b29c3c <unknown>
+
+2025-07-21 20:11:13,873 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 14.295
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58e3d6a7c7da <unknown>
+#1 0x58e3d65212e0 <unknown>
+#2 0x58e3d650946c <unknown>
+#3 0x58e3d6509175 <unknown>
+#4 0x58e3d6506fd5 <unknown>
+#5 0x58e3d650792f <unknown>
+#6 0x58e3d65163e3 <unknown>
+#7 0x58e3d652f83e <unknown>
+#8 0x58e3d653607b <unknown>
+#9 0x58e3d6508070 <unknown>
+#10 0x58e3d652f499 <unknown>
+#11 0x58e3d65bea79 <unknown>
+#12 0x58e3d6598683 <unknown>
+#13 0x58e3d6564b5b <unknown>
+#14 0x58e3d6565f31 <unknown>
+#15 0x58e3d6a4172b <unknown>
+#16 0x58e3d6a45534 <unknown>
+#17 0x58e3d6a28229 <unknown>
+#18 0x58e3d6a460d8 <unknown>
+#19 0x58e3d6a0c61f <unknown>
+#20 0x58e3d6a69dd8 <unknown>
+#21 0x58e3d6a69fb6 <unknown>
+#22 0x58e3d6a7baf6 <unknown>
+#23 0x752456a9caa4 <unknown>
+#24 0x752456b29c3c <unknown>
+
+2025-07-21 20:11:13,873 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:11:17,068 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:11:17,068 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:11:17,068 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:11:17,068 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:11:17,068 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:11:17,068 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:11:17,068 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:11:17,068 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:12:17,466 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:12:17,668 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:12:17,866 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:12:18,067 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:12:18,067 - INFO - CCB Criptoya - Compra: 1286.409, Venta: 1299.403
+2025-07-21 20:12:18,566 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:12:18,566 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:12:18,666 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:12:18,666 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:12:34,069 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:13:05,170 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.004
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x633f0b73f7da <unknown>
+#1 0x633f0b1e42e0 <unknown>
+#2 0x633f0b1cc46c <unknown>
+#3 0x633f0b1cc175 <unknown>
+#4 0x633f0b1c9fd5 <unknown>
+#5 0x633f0b1ca92f <unknown>
+#6 0x633f0b1d93e3 <unknown>
+#7 0x633f0b1f283e <unknown>
+#8 0x633f0b1f907b <unknown>
+#9 0x633f0b1cb070 <unknown>
+#10 0x633f0b1f2499 <unknown>
+#11 0x633f0b281a79 <unknown>
+#12 0x633f0b25b683 <unknown>
+#13 0x633f0b227b5b <unknown>
+#14 0x633f0b228f31 <unknown>
+#15 0x633f0b70472b <unknown>
+#16 0x633f0b708534 <unknown>
+#17 0x633f0b6eb229 <unknown>
+#18 0x633f0b7090d8 <unknown>
+#19 0x633f0b6cf61f <unknown>
+#20 0x633f0b72cdd8 <unknown>
+#21 0x633f0b72cfb6 <unknown>
+#22 0x633f0b73eaf6 <unknown>
+#23 0x7ae878e9caa4 <unknown>
+#24 0x7ae878f29c3c <unknown>
+
+2025-07-21 20:13:07,170 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:13:38,674 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 20.703
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x633f0b73f7da <unknown>
+#1 0x633f0b1e42e0 <unknown>
+#2 0x633f0b1cc46c <unknown>
+#3 0x633f0b1cc175 <unknown>
+#4 0x633f0b1c9fd5 <unknown>
+#5 0x633f0b1ca92f <unknown>
+#6 0x633f0b1d93e3 <unknown>
+#7 0x633f0b1f283e <unknown>
+#8 0x633f0b1f907b <unknown>
+#9 0x633f0b1cb070 <unknown>
+#10 0x633f0b1f2499 <unknown>
+#11 0x633f0b281a79 <unknown>
+#12 0x633f0b25b683 <unknown>
+#13 0x633f0b227b5b <unknown>
+#14 0x633f0b228f31 <unknown>
+#15 0x633f0b70472b <unknown>
+#16 0x633f0b708534 <unknown>
+#17 0x633f0b6eb229 <unknown>
+#18 0x633f0b7090d8 <unknown>
+#19 0x633f0b6cf61f <unknown>
+#20 0x633f0b72cdd8 <unknown>
+#21 0x633f0b72cfb6 <unknown>
+#22 0x633f0b73eaf6 <unknown>
+#23 0x7ae878e9caa4 <unknown>
+#24 0x7ae878f29c3c <unknown>
+
+2025-07-21 20:13:38,675 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 20.703
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x633f0b73f7da <unknown>
+#1 0x633f0b1e42e0 <unknown>
+#2 0x633f0b1cc46c <unknown>
+#3 0x633f0b1cc175 <unknown>
+#4 0x633f0b1c9fd5 <unknown>
+#5 0x633f0b1ca92f <unknown>
+#6 0x633f0b1d93e3 <unknown>
+#7 0x633f0b1f283e <unknown>
+#8 0x633f0b1f907b <unknown>
+#9 0x633f0b1cb070 <unknown>
+#10 0x633f0b1f2499 <unknown>
+#11 0x633f0b281a79 <unknown>
+#12 0x633f0b25b683 <unknown>
+#13 0x633f0b227b5b <unknown>
+#14 0x633f0b228f31 <unknown>
+#15 0x633f0b70472b <unknown>
+#16 0x633f0b708534 <unknown>
+#17 0x633f0b6eb229 <unknown>
+#18 0x633f0b7090d8 <unknown>
+#19 0x633f0b6cf61f <unknown>
+#20 0x633f0b72cdd8 <unknown>
+#21 0x633f0b72cfb6 <unknown>
+#22 0x633f0b73eaf6 <unknown>
+#23 0x7ae878e9caa4 <unknown>
+#24 0x7ae878f29c3c <unknown>
+
+2025-07-21 20:13:38,675 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:13:40,971 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:13:40,972 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:13:40,972 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:13:40,972 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:13:40,972 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:13:40,972 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:13:40,972 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:13:40,972 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:14:41,267 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:14:41,470 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:14:41,666 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:14:41,866 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:14:41,866 - INFO - CCB Criptoya - Compra: 1286.498, Venta: 1299.492
+2025-07-21 20:14:42,366 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:14:42,366 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:14:42,466 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:14:42,466 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:14:58,567 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:15:30,970 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 28.396
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x6367f80037da <unknown>
+#1 0x6367f7aa82e0 <unknown>
+#2 0x6367f7a9046c <unknown>
+#3 0x6367f7a90175 <unknown>
+#4 0x6367f7a8dfd5 <unknown>
+#5 0x6367f7a8e92f <unknown>
+#6 0x6367f7a9d3e3 <unknown>
+#7 0x6367f7ab683e <unknown>
+#8 0x6367f7abd07b <unknown>
+#9 0x6367f7a8f070 <unknown>
+#10 0x6367f7ab6499 <unknown>
+#11 0x6367f7b45a79 <unknown>
+#12 0x6367f7b1f683 <unknown>
+#13 0x6367f7aebb5b <unknown>
+#14 0x6367f7aecf31 <unknown>
+#15 0x6367f7fc872b <unknown>
+#16 0x6367f7fcc534 <unknown>
+#17 0x6367f7faf229 <unknown>
+#18 0x6367f7fcd0d8 <unknown>
+#19 0x6367f7f9361f <unknown>
+#20 0x6367f7ff0dd8 <unknown>
+#21 0x6367f7ff0fb6 <unknown>
+#22 0x6367f8002af6 <unknown>
+#23 0x71ae8229caa4 <unknown>
+#24 0x71ae82329c3c <unknown>
+
+2025-07-21 20:15:32,971 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:16:04,468 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 18.304
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x6367f80037da <unknown>
+#1 0x6367f7aa82e0 <unknown>
+#2 0x6367f7a9046c <unknown>
+#3 0x6367f7a90175 <unknown>
+#4 0x6367f7a8dfd5 <unknown>
+#5 0x6367f7a8e92f <unknown>
+#6 0x6367f7a9d3e3 <unknown>
+#7 0x6367f7ab683e <unknown>
+#8 0x6367f7abd07b <unknown>
+#9 0x6367f7a8f070 <unknown>
+#10 0x6367f7ab6499 <unknown>
+#11 0x6367f7b45a79 <unknown>
+#12 0x6367f7b1f683 <unknown>
+#13 0x6367f7aebb5b <unknown>
+#14 0x6367f7aecf31 <unknown>
+#15 0x6367f7fc872b <unknown>
+#16 0x6367f7fcc534 <unknown>
+#17 0x6367f7faf229 <unknown>
+#18 0x6367f7fcd0d8 <unknown>
+#19 0x6367f7f9361f <unknown>
+#20 0x6367f7ff0dd8 <unknown>
+#21 0x6367f7ff0fb6 <unknown>
+#22 0x6367f8002af6 <unknown>
+#23 0x71ae8229caa4 <unknown>
+#24 0x71ae82329c3c <unknown>
+
+2025-07-21 20:16:04,469 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 18.304
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x6367f80037da <unknown>
+#1 0x6367f7aa82e0 <unknown>
+#2 0x6367f7a9046c <unknown>
+#3 0x6367f7a90175 <unknown>
+#4 0x6367f7a8dfd5 <unknown>
+#5 0x6367f7a8e92f <unknown>
+#6 0x6367f7a9d3e3 <unknown>
+#7 0x6367f7ab683e <unknown>
+#8 0x6367f7abd07b <unknown>
+#9 0x6367f7a8f070 <unknown>
+#10 0x6367f7ab6499 <unknown>
+#11 0x6367f7b45a79 <unknown>
+#12 0x6367f7b1f683 <unknown>
+#13 0x6367f7aebb5b <unknown>
+#14 0x6367f7aecf31 <unknown>
+#15 0x6367f7fc872b <unknown>
+#16 0x6367f7fcc534 <unknown>
+#17 0x6367f7faf229 <unknown>
+#18 0x6367f7fcd0d8 <unknown>
+#19 0x6367f7f9361f <unknown>
+#20 0x6367f7ff0dd8 <unknown>
+#21 0x6367f7ff0fb6 <unknown>
+#22 0x6367f8002af6 <unknown>
+#23 0x71ae8229caa4 <unknown>
+#24 0x71ae82329c3c <unknown>
+
+2025-07-21 20:16:04,469 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:16:08,369 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:16:08,369 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:16:08,369 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:16:08,370 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:16:08,370 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:16:08,370 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:16:08,370 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:16:08,370 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:17:08,672 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:17:08,967 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:17:09,469 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:17:09,766 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:17:09,767 - INFO - CCB Criptoya - Compra: 1287.04, Venta: 1299.421
+2025-07-21 20:17:10,067 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:17:10,067 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:17:10,166 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:17:10,166 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:17:41,771 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:18:18,969 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x590a179c37da <unknown>
+#1 0x590a174682e0 <unknown>
+#2 0x590a1745046c <unknown>
+#3 0x590a17450175 <unknown>
+#4 0x590a1744dfd5 <unknown>
+#5 0x590a1744e92f <unknown>
+#6 0x590a1745d3e3 <unknown>
+#7 0x590a1747683e <unknown>
+#8 0x590a1747d07b <unknown>
+#9 0x590a1744f070 <unknown>
+#10 0x590a17476499 <unknown>
+#11 0x590a175055f6 <unknown>
+#12 0x590a174df683 <unknown>
+#13 0x590a174abb5b <unknown>
+#14 0x590a174acf31 <unknown>
+#15 0x590a1798872b <unknown>
+#16 0x590a1798c534 <unknown>
+#17 0x590a1796f229 <unknown>
+#18 0x590a1798d0d8 <unknown>
+#19 0x590a1795361f <unknown>
+#20 0x590a179b0dd8 <unknown>
+#21 0x590a179b0fb6 <unknown>
+#22 0x590a179c2af6 <unknown>
+#23 0x77be4b89caa4 <unknown>
+#24 0x77be4b929c3c <unknown>
+
+2025-07-21 20:18:20,969 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:18:53,670 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 21.900
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x590a179c37da <unknown>
+#1 0x590a174682e0 <unknown>
+#2 0x590a1745046c <unknown>
+#3 0x590a17450175 <unknown>
+#4 0x590a1744dfd5 <unknown>
+#5 0x590a1744e92f <unknown>
+#6 0x590a1745d3e3 <unknown>
+#7 0x590a1747683e <unknown>
+#8 0x590a1747d07b <unknown>
+#9 0x590a1744f070 <unknown>
+#10 0x590a17476499 <unknown>
+#11 0x590a17505a79 <unknown>
+#12 0x590a174df683 <unknown>
+#13 0x590a174abb5b <unknown>
+#14 0x590a174acf31 <unknown>
+#15 0x590a1798872b <unknown>
+#16 0x590a1798c534 <unknown>
+#17 0x590a1796f229 <unknown>
+#18 0x590a1798d0d8 <unknown>
+#19 0x590a1795361f <unknown>
+#20 0x590a179b0dd8 <unknown>
+#21 0x590a179b0fb6 <unknown>
+#22 0x590a179c2af6 <unknown>
+#23 0x77be4b89caa4 <unknown>
+#24 0x77be4b929c3c <unknown>
+
+2025-07-21 20:18:53,671 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 21.900
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x590a179c37da <unknown>
+#1 0x590a174682e0 <unknown>
+#2 0x590a1745046c <unknown>
+#3 0x590a17450175 <unknown>
+#4 0x590a1744dfd5 <unknown>
+#5 0x590a1744e92f <unknown>
+#6 0x590a1745d3e3 <unknown>
+#7 0x590a1747683e <unknown>
+#8 0x590a1747d07b <unknown>
+#9 0x590a1744f070 <unknown>
+#10 0x590a17476499 <unknown>
+#11 0x590a17505a79 <unknown>
+#12 0x590a174df683 <unknown>
+#13 0x590a174abb5b <unknown>
+#14 0x590a174acf31 <unknown>
+#15 0x590a1798872b <unknown>
+#16 0x590a1798c534 <unknown>
+#17 0x590a1796f229 <unknown>
+#18 0x590a1798d0d8 <unknown>
+#19 0x590a1795361f <unknown>
+#20 0x590a179b0dd8 <unknown>
+#21 0x590a179b0fb6 <unknown>
+#22 0x590a179c2af6 <unknown>
+#23 0x77be4b89caa4 <unknown>
+#24 0x77be4b929c3c <unknown>
+
+2025-07-21 20:18:53,671 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:18:57,273 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:18:57,273 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:18:57,273 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:18:57,273 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:18:57,273 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:18:57,273 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:18:57,273 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:18:57,273 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:19:57,668 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:19:57,866 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:19:58,065 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:19:58,266 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:19:58,266 - INFO - CCB Criptoya - Compra: 1286.513, Venta: 1299.508
+2025-07-21 20:19:58,765 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:19:58,765 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:19:58,865 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:19:58,865 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:20:19,667 - INFO - 🌐 Intento 1/2 - Cargando InfoDolar...
+2025-07-21 20:20:50,466 - WARNING - ⚠️ Intento 1 falló: Message: timeout: Timed out receiving message from renderer: 27.397
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58c02bc017da <unknown>
+#1 0x58c02b6a62e0 <unknown>
+#2 0x58c02b68e46c <unknown>
+#3 0x58c02b68e175 <unknown>
+#4 0x58c02b68bfd5 <unknown>
+#5 0x58c02b68c92f <unknown>
+#6 0x58c02b69b3e3 <unknown>
+#7 0x58c02b6b483e <unknown>
+#8 0x58c02b6bb07b <unknown>
+#9 0x58c02b68d070 <unknown>
+#10 0x58c02b6b4499 <unknown>
+#11 0x58c02b743a79 <unknown>
+#12 0x58c02b71d683 <unknown>
+#13 0x58c02b6e9b5b <unknown>
+#14 0x58c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:20:52,467 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:21:24,866 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 4.599
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58c02bc017da <unknown>
+#1 0x58c02b6a62e0 <unknown>
+#2 0x58c02b68e46c <unknown>
+#3 0x58c02b68e175 <unknown>
+#4 0x58c02b68bfd5 <unknown>
+#5 0x58c02b68c92f <unknown>
+#6 0x58c02b69b3e3 <unknown>
+#7 0x58c02b6b483e <unknown>
+#8 0x58c02b6bb07b <unknown>
+#9 0x58c02b68d070 <unknown>
+#10 0x58c02b6b4499 <unknown>
+#11 0x58c02b743a79 <unknown>
+#12 0x58c02b71d683 <unknown>
+#13 0x58c02b6e9b5b <unknown>
+#14 0x58c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:21:24,866 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 4.599
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58c02bc017da <unknown>
+#1 0x58c02b6a62e0 <unknown>
+#2 0x58c02b68e46c <unknown>
+#3 0x58c02b68e175 <unknown>
+#4 0x58c02b68bfd5 <unknown>
+#5 0x58c02b68c92f <unknown>
+#6 0x58c02b69b3e3 <unknown>
+#7 0x58c02b6b483e <unknown>
+#8 0x58c02b6bb07b <unknown>
+#9 0x58c02b68d070 <unknown>
+#10 0x58c02b6b4499 <unknown>
+#11 0x58c02b743a79 <unknown>
+#12 0x58c02b71d683 <unknown>
+#13 0x58c02b6e9b5b <unknown>
+#14 0x58c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:21:24,866 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:21:28,864 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:21:28,865 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:21:28,865 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:21:28,865 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:21:28,865 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:20:52,467 - INFO - 🌐 Intento 2/2 - Cargando InfoDolar...
+2025-07-21 20:21:24,866 - WARNING - ⚠️ Intento 2 falló: Message: timeout: Timed out receiving message from renderer: 4.599
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58c02bc017da <unknown>
+#1 0x58c02b6a62e0 <unknown>
+#2 0x58c02b68e46c <unknown>
+#3 0x58c02b68e175 <unknown>
+#4 0x58c02b68bfd5 <unknown>
+#5 0x58c02b68c92f <unknown>
+#6 0x58c02b69b3e3 <unknown>
+#7 0x58c02b6b483e <unknown>
+#8 0x58c02b6bb07b <unknown>
+#9 0x58c02b68d070 <unknown>
+#10 0x58c02b6b4499 <unknown>
+#11 0x58c02b743a79 <unknown>
+#12 0x58c02b71d683 <unknown>
+#13 0x58c02b6e9b5b <unknown>
+#14 0x58c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:21:24,866 - ERROR - ❌ Error al obtener precios InfoDolar: Message: timeout: Timed out receiving message from renderer: 4.599
+  (Session info: chrome=138.0.7204.157)
+Stacktrace:
+#0 0x58c02bc017da <unknown>
+#1 0x58c02b6a62e0 <unknown>
+#2 0x58c02b68e46c <unknown>
+#3 0x58c02b68e175 <unknown>
+#4 0x58c02b68bfd5 <unknown>
+#5 0x58c02b68c92f <unknown>
+#6 0x58c02b69b3e3 <unknown>
+#7 0x58c02b6b483e <unknown>
+#8 0x58c02b6bb07b <unknown>
+#9 0x58c02b68d070 <unknown>
+#10 0x58c02b6b4499 <unknown>
+#11 0x58c02b743a79 <unknown>
+#12 0x58c02b71d683 <unknown>
+#13 0x58c02b6e9b5b <unknown>
+#14 0x58c02b6eaf31 <unknown>
+#15 0x58c02bbc672b <unknown>
+#16 0x58c02bbca534 <unknown>
+#17 0x58c02bbad229 <unknown>
+#18 0x58c02bbcb0d8 <unknown>
+#19 0x58c02bb9161f <unknown>
+#20 0x58c02bbeedd8 <unknown>
+#21 0x58c02bbeefb6 <unknown>
+#22 0x58c02bc00af6 <unknown>
+#23 0x7b709709caa4 <unknown>
+#24 0x7b7097129c3c <unknown>
+
+2025-07-21 20:21:24,866 - INFO - 🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes
+2025-07-21 20:21:28,864 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 20:21:28,865 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 20:21:28,865 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 20:21:28,865 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1290, Venta: 1320
+2025-07-21 20:21:28,865 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 20:21:28,865 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 20:22:43,075 - INFO - Bot iniciado
+2025-07-21 20:22:44,067 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:22:44,265 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:22:44,465 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:22:44,765 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:22:44,765 - INFO - CCB Criptoya - Compra: 1286.339, Venta: 1299.332
+2025-07-21 20:22:45,365 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:22:45,365 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:22:46,265 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:22:46,265 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:22:50,373 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:22:50,373 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:22:50,373 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:22:50,373 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:22:50,373 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:22:50,373 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:22:50,373 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:22:50,373 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:22:50,374 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:22:50,374 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:23:50,865 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:23:51,066 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:23:51,265 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:23:51,465 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:23:51,465 - INFO - CCB Criptoya - Compra: 1286.513, Venta: 1299.508
+2025-07-21 20:23:51,965 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:23:51,965 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:23:52,065 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:23:52,065 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:23:52,968 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:23:52,968 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:23:52,969 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:23:52,969 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:23:52,969 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:23:52,969 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:23:52,969 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:23:52,969 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:23:52,969 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:23:52,969 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:24:53,165 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:24:53,365 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:24:53,565 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:24:53,765 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:24:53,765 - INFO - CCB Criptoya - Compra: 1286.626, Venta: 1299.623
+2025-07-21 20:24:54,265 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:24:54,265 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:24:54,365 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:24:54,365 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:24:55,774 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:24:55,774 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:24:55,775 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:24:55,775 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:24:55,775 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:24:55,775 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:24:55,775 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:24:55,775 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:24:55,775 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:24:55,775 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:25:56,168 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:25:56,366 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:25:56,565 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:25:56,765 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:25:56,765 - INFO - CCB Criptoya - Compra: 1286.307, Venta: 1299.3
+2025-07-21 20:25:57,265 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:25:57,265 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:25:57,365 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:25:57,365 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:25:59,169 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:25:59,170 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:25:59,170 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:25:59,170 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:25:59,170 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:25:59,170 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:25:59,170 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:25:59,170 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:25:59,170 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:25:59,170 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:27:00,171 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:27:00,765 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:27:00,972 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:27:01,265 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:27:01,265 - INFO - CCB Criptoya - Compra: 1286.768, Venta: 1299.35
+2025-07-21 20:27:02,069 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:27:02,069 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:27:02,167 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:27:02,167 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:27:04,871 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:27:04,872 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:27:04,872 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:27:04,872 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:27:04,872 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:27:04,872 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:27:04,872 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:27:04,872 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:27:04,872 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:27:04,872 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:28:05,569 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:28:05,774 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:28:05,971 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:28:06,165 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:28:06,166 - INFO - CCB Criptoya - Compra: 1286.387, Venta: 1299.381
+2025-07-21 20:28:06,665 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:28:06,665 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:28:06,765 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:28:06,765 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:28:08,571 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:28:08,571 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:28:08,572 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:28:08,572 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:28:08,572 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:28:08,572 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:28:08,572 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:28:08,572 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:28:08,572 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:28:08,572 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:29:08,970 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:29:09,169 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:29:09,466 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:29:09,665 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:29:09,665 - INFO - CCB Criptoya - Compra: 1287.529, Venta: 1299.424
+2025-07-21 20:29:10,368 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:29:10,368 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:29:10,474 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:29:10,474 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:29:11,966 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:29:11,966 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:29:11,967 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:29:11,967 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:29:11,967 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:29:11,967 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:29:11,967 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:29:11,967 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:29:11,967 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:29:11,967 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:30:12,265 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:30:12,474 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:30:12,865 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:30:13,065 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:30:13,065 - INFO - CCB Criptoya - Compra: 1288.056, Venta: 1299.379
+2025-07-21 20:30:13,565 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:30:13,565 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:30:13,667 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:30:13,667 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:30:15,966 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:30:15,967 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:30:15,967 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:30:15,967 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:30:15,967 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:30:15,967 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:30:15,967 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:30:15,967 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:30:15,967 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:30:15,967 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:31:17,067 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:31:17,269 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:31:17,464 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:31:17,665 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:31:17,666 - INFO - CCB Criptoya - Compra: 1286.67, Venta: 1299.28
+2025-07-21 20:31:18,264 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:31:18,264 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:31:18,472 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:31:18,472 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:31:21,565 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:31:21,565 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:31:21,566 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:31:21,566 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:31:21,566 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:31:21,566 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:31:21,566 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:31:21,566 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:31:21,566 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:31:21,566 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7
+2025-07-21 20:32:21,867 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:32:22,065 - INFO - Dólar Blue - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:32:22,264 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 20:32:22,566 - INFO - Blue Criptoya - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:32:22,566 - INFO - CCB Criptoya - Compra: 1286.803, Venta: 1299.481
+2025-07-21 20:32:23,070 - INFO - Blue Bluelytics - Compra: 1305.0, Venta: 1325.0
+2025-07-21 20:32:23,070 - INFO - Oficial Bluelytics - Compra: 1251.0, Venta: 1299.0
+2025-07-21 20:32:23,173 - INFO - Blue DolarAPI - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:32:23,173 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 20:32:26,569 - INFO - 🗺️ InfoDolar Córdoba: $1304.0/1334.0 ✅
+2025-07-21 20:32:26,569 - INFO - 💙 InfoDolar Blue General: $1300.0/1320.0 ✅
+2025-07-21 20:32:26,570 - INFO - 🗺️ InfoDolar Córdoba integrado en BLUE+OFICIAL - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:32:26,570 - INFO - 💙 InfoDolar Blue General integrado en BLUE+OFICIAL - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:32:26,570 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 20:32:26,570 - INFO - 🗺️ InfoDolar Córdoba integrado en USDT+CCB - Compra: 1304.0, Venta: 1334.0
+2025-07-21 20:32:26,570 - INFO - 💙 InfoDolar Blue General integrado en USDT+CCB - Compra: 1300.0, Venta: 1320.0
+2025-07-21 20:32:26,570 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1295, Venta: 1320
+2025-07-21 20:32:26,570 - INFO - 🗺️ InfoDolar Córdoba: ✅ | 💙 Blue General: ✅
+2025-07-21 20:32:26,570 - INFO - 📊 Blue+Oficial fuentes: 5, USDT+CCB fuentes: 7

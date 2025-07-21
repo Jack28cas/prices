@@ -1,0 +1,36 @@
+import os
+from dotenv import load_dotenv
+import requests
+import time
+import telebot
+
+# Cargar variables de entorno
+load_dotenv()
+
+# Configurar el bot con tu token
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
+
+bot = telebot.TeleBot(TOKEN)
+
+# Guardamos los últimos valores para comparar cambios
+ultimo_precio_compra_usdt = None
+ultimo_precio_venta_usdt = None
+ultimo_precio_compra_blue = None
+ultimo_precio_venta_blue = None
+
+# Función para obtener los precios desde la API de Fiwind
+def obtener_precio_fiwind():
+    url = "https://criptoya.com/api/fiwind/USDT/ARS/0.1"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+        compra = float(data["bid"])   # Precio de compra (bid)
+        venta = float(data["ask"])   # Precio de venta (ask)
+        return compra, venta
+    else:
+        return None, None
+
+# Función para obtener los precios del dólar blue
+def obtener_

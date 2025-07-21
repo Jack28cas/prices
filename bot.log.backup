@@ -1,0 +1,56 @@
+nohup: ignoring input
+2025-07-21 17:55:03,166 - INFO - Bot iniciado
+2025-07-21 17:55:03,664 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1303.0
+2025-07-21 17:55:03,863 - INFO - Dólar Blue - Compra: 1310.0, Venta: 1330.0
+2025-07-21 17:55:04,063 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1303.0
+2025-07-21 17:55:04,264 - INFO - Blue Criptoya - Compra: 1310.0, Venta: 1330.0
+2025-07-21 17:55:04,264 - INFO - CCB Criptoya - Compra: 1288.677, Venta: 1297.959
+2025-07-21 17:55:04,963 - INFO - Blue Bluelytics - Compra: 1310.0, Venta: 1330.0
+2025-07-21 17:55:04,963 - INFO - Oficial Bluelytics - Compra: 1264.0, Venta: 1310.0
+2025-07-21 17:55:05,263 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 17:55:05,263 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 17:57:30,072 - ERROR - Error al obtener precios InfoDolar: HTTPConnectionPool(host='localhost', port=44259): Read timed out. (read timeout=120)
+2025-07-21 17:59:30,172 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=44259): Read timed out. (read timeout=120)")': /session/b80d83a9618792a3b9289d56b840fba4
+2025-07-21 18:00:02,283 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 18:00:02,283 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 18:00:02,284 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 18:00:02,284 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 18:00:02,284 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 18:00:02,284 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1300, Venta: 1325
+2025-07-21 18:00:02,284 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 18:00:02,284 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 18:01:02,567 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 18:01:03,464 - INFO - Mensaje enviado: USDT Precio - Fiwind
+Compra: 1287.00  |  Venta: 1300.00
+2025-07-21 18:01:03,664 - INFO - Dólar Blue - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:01:03,966 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 18:01:04,164 - INFO - Blue Criptoya - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:01:04,164 - INFO - CCB Criptoya - Compra: 1286.399, Venta: 1296.401
+2025-07-21 18:01:04,663 - INFO - Blue Bluelytics - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:01:04,665 - INFO - Oficial Bluelytics - Compra: 1264.0, Venta: 1310.0
+2025-07-21 18:01:04,763 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 18:01:04,764 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 18:03:20,963 - ERROR - Error al obtener precios InfoDolar: HTTPConnectionPool(host='localhost', port=45065): Read timed out. (read timeout=120)
+2025-07-21 18:05:21,066 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=45065): Read timed out. (read timeout=120)")': /session/e25c52cb51a636d858bb4851887a8b3e
+2025-07-21 18:07:21,269 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=45065): Read timed out. (read timeout=120)")': /session/e25c52cb51a636d858bb4851887a8b3e
+2025-07-21 18:09:21,473 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=45065): Read timed out. (read timeout=120)")': /session/e25c52cb51a636d858bb4851887a8b3e
+2025-07-21 18:09:34,765 - WARNING - ⚠️ InfoDolar Córdoba no disponible para BLUE+OFICIAL
+2025-07-21 18:09:34,765 - WARNING - ⚠️ InfoDolar Blue General no disponible para BLUE+OFICIAL
+2025-07-21 18:09:34,765 - INFO - 📊 Blues principales agregados a USDT+CCB
+2025-07-21 18:09:34,765 - WARNING - ⚠️ InfoDolar Córdoba no disponible para USDT+CCB
+2025-07-21 18:09:34,765 - WARNING - ⚠️ InfoDolar Blue General no disponible para USDT+CCB
+2025-07-21 18:09:34,765 - INFO - 🔥 DÓLAR BLUE COTIBOT (con InfoDolar completo) - Compra: 1300, Venta: 1325
+2025-07-21 18:09:34,765 - INFO - 🗺️ InfoDolar Córdoba: ❌ | 💙 Blue General: ❌
+2025-07-21 18:09:34,765 - INFO - 📊 Blue+Oficial fuentes: 3, USDT+CCB fuentes: 5
+2025-07-21 18:10:35,363 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 18:10:35,563 - INFO - Dólar Blue - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:10:35,763 - INFO - USDT Fiwind - Compra: 1287.0, Venta: 1300.0
+2025-07-21 18:10:35,963 - INFO - Blue Criptoya - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:10:35,964 - INFO - CCB Criptoya - Compra: 1287.405, Venta: 1298.337
+2025-07-21 18:10:36,665 - INFO - Blue Bluelytics - Compra: 1310.0, Venta: 1330.0
+2025-07-21 18:10:36,666 - INFO - Oficial Bluelytics - Compra: 1264.0, Venta: 1310.0
+2025-07-21 18:10:37,064 - INFO - Blue DolarAPI - Compra: 1305.0, Venta: 1325.0
+2025-07-21 18:10:37,064 - INFO - 🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...
+2025-07-21 18:12:50,667 - ERROR - Error al obtener precios InfoDolar: HTTPConnectionPool(host='localhost', port=46099): Read timed out. (read timeout=120)
+2025-07-21 18:14:50,770 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=46099): Read timed out. (read timeout=120)")': /session/73d544480da5ef20396c6fbc1dbebb69
+2025-07-21 18:16:50,870 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=46099): Read timed out. (read timeout=120)")': /session/73d544480da5ef20396c6fbc1dbebb69

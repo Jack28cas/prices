@@ -13,6 +13,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import re
+import brotli
 
 # Configurar logging
 logging.basicConfig(
@@ -167,74 +168,65 @@ def obtener_precio_dolarapi():
 def obtener_precio_infodolar():
     """
     Obtiene precios de InfoDolar: Córdoba específica Y Dólar Blue general
+    VERSIÓN FINAL CON BROTLI QUE FUNCIONA EN SERVIDOR
     """
-    driver = None
     try:
         logging.info("🔥 Obteniendo precios de InfoDolar (Córdoba + Blue General)...")
         
-        # Configuración optimizada de Chrome para SERVIDOR LINUX
-        chrome_options = Options()
-        chrome_options.add_argument("--headless=new")  # Nueva versión headless
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--disable-software-rasterizer")
-        chrome_options.add_argument("--disable-background-timer-throttling")
-        chrome_options.add_argument("--disable-backgrounding-occluded-windows")
-        chrome_options.add_argument("--disable-renderer-backgrounding")
-        chrome_options.add_argument("--disable-features=TranslateUI")
-        chrome_options.add_argument("--disable-ipc-flooding-protection")
-        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-        chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        chrome_options.add_experimental_option('useAutomationExtension', False)
-        chrome_options.add_argument("--disable-images")  # Más rápido
-        chrome_options.add_argument("--disable-javascript")  # Inicialmente
-        chrome_options.add_argument("--remote-debugging-port=9222")  # Para debugging
-        chrome_options.add_argument("--window-size=1920,1080")  # Tamaño fijo
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
         
-        # Inicializar driver con timeouts más cortos
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.set_page_load_timeout(30)  # Timeout más corto
-        driver.implicitly_wait(10)
-        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        session_infodolar = requests.Session()
+        session_infodolar.headers.update(headers)
         
-        # Cargar InfoDolar con retry
-        max_retries = 2
-        for attempt in range(max_retries):
-            try:
-                logging.info(f"🌐 Intento {attempt + 1}/{max_retries} - Cargando InfoDolar...")
-                driver.get("https://www.infodolar.com/cotizacion-dolar-blue.aspx")
-                time.sleep(2)  # Espera más corta
-                
-                # Recargar con JavaScript habilitado
-                driver.execute_script("window.location.reload();")
-                time.sleep(3)  # Espera más corta
-                break
-                
-            except Exception as e:
-                logging.warning(f"⚠️ Intento {attempt + 1} falló: {str(e)}")
-                if attempt == max_retries - 1:
-                    raise
-                time.sleep(2)
+        response = session_infodolar.get('https://www.infodolar.com/cotizacion-dolar-blue.aspx', timeout=30)
         
-        # Obtener HTML y buscar AMBOS precios
-        page_source = driver.page_source
-        cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta, promedio_compra, promedio_venta = _extraer_precios_completos_infodolar(page_source)
+        if response.status_code == 200:
+            # Manejar compresión Brotli
+            content_encoding = response.headers.get('Content-Encoding', '').lower()
+            
+            if 'br' in content_encoding:
+                try:
+                    html_content = brotli.decompress(response.content).decode('utf-8')
+                except:
+                    html_content = response.text
+            else:
+                html_content = response.text
+            
+            # Verificar contenido legible
+            if not ('html' in html_content.lower()[:100] and 'infodolar' in html_content.lower()):
+                logging.warning("⚠️ HTML InfoDolar no legible")
+                return None, None, None, None
+            
+            # Extraer precios usando BeautifulSoup
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # === 🗺️ EXTRAER CÓRDOBA ESPECÍFICA ===
+            cordoba_compra, cordoba_venta = _extraer_precios_cordoba_final(soup, html_content)
+            
+            # === 💙 EXTRAER DÓLAR BLUE INFODOLAR GENERAL ===
+            blue_general_compra, blue_general_venta = _extraer_precios_blue_general_final(soup, html_content)
+            
+            logging.info(f"🗺️ InfoDolar Córdoba: ${cordoba_compra}/{cordoba_venta} {'✅' if cordoba_compra else '❌'}")
+            logging.info(f"💙 InfoDolar Blue General: ${blue_general_compra}/{blue_general_venta} {'✅' if blue_general_compra else '❌'}")
+            
+            return cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta
         
-        # Retornar AMBOS precios por separado
-        return cordoba_compra, cordoba_venta, blue_general_compra, blue_general_venta
+        else:
+            logging.error(f"❌ Error HTTP InfoDolar: {response.status_code}")
+            return None, None, None, None
     
     except Exception as e:
         logging.error(f"❌ Error al obtener precios InfoDolar: {str(e)}")
         logging.info("🔄 InfoDolar no disponible - Bot continúa con otras 11 fuentes")
         return None, None, None, None
-    
-    finally:
-        if driver:
-            try:
-                driver.quit()
-            except:
-                pass
 
 def _extraer_precios_completos_infodolar(html_content):
     """
@@ -421,6 +413,120 @@ def _extraer_todos_precios_infodolar(html_content):
     return list(set(precios))
 
 # Función para redondear precios personalizado
+
+def _extraer_precios_cordoba_final(soup, html_content):
+    """Extraer precios específicos de Córdoba"""
+    try:
+        # Buscar en filas de tabla que contengan Córdoba
+        rows = soup.find_all('tr')
+        
+        for row in rows:
+            row_text = row.get_text()
+            
+            if 'córdoba' in row_text.lower():
+                cells = row.find_all(['td', 'th'])
+                precios = []
+                
+                for cell in cells:
+                    cell_text = cell.get_text()
+                    # Buscar precios en formato $ 1.XXX,XX
+                    price_matches = re.findall(r'\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})', cell_text)
+                    
+                    for match in price_matches:
+                        precio = _limpiar_precio_infodolar_final(match)
+                        if precio and 1200 <= precio <= 1400:
+                            precios.append(precio)
+                
+                if len(precios) >= 2:
+                    precios = sorted(list(set(precios)))
+                    return min(precios), max(precios)
+        
+        # Fallback: buscar en HTML completo
+        cordoba_patterns = [
+            r'Córdoba.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+        ]
+        
+        for pattern in cordoba_patterns:
+            match = re.search(pattern, html_content, re.IGNORECASE | re.DOTALL)
+            if match:
+                precio1 = _limpiar_precio_infodolar_final(match.group(1))
+                precio2 = _limpiar_precio_infodolar_final(match.group(2))
+                
+                if precio1 and precio2 and 1200 <= precio1 <= 1400 and 1200 <= precio2 <= 1400:
+                    return min(precio1, precio2), max(precio1, precio2)
+        
+        return None, None
+        
+    except Exception as e:
+        logging.error(f"Error extrayendo Córdoba: {e}")
+        return None, None
+
+def _extraer_precios_blue_general_final(soup, html_content):
+    """Extraer precio Blue General InfoDolar (primera fila)"""
+    try:
+        # Buscar específicamente "Dólar Blue InfoDolar" en filas
+        rows = soup.find_all('tr')
+        
+        for row in rows:
+            # Buscar span con clase "nombre" que contenga "Dólar Blue InfoDolar"
+            nombre_span = row.find('span', class_='nombre')
+            
+            if nombre_span and 'dólar blue infodolar' in nombre_span.get_text().lower():
+                # Esta es la fila correcta, extraer precios de las celdas
+                cells = row.find_all(['td', 'th'])
+                precios = []
+                
+                for cell in cells:
+                    cell_text = cell.get_text()
+                    # Buscar precios en formato $ 1.XXX,XX
+                    price_matches = re.findall(r'\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})', cell_text)
+                    
+                    for match in price_matches:
+                        precio = _limpiar_precio_infodolar_final(match)
+                        if precio and 1200 <= precio <= 1400:
+                            precios.append(precio)
+                
+                if len(precios) >= 2:
+                    precios = sorted(list(set(precios)))
+                    return min(precios), max(precios)
+        
+        # Fallback: buscar en HTML completo
+        blue_patterns = [
+            r'Dólar\s+Blue\s+InfoDolar.*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2}).*?\$\s*([1-2]\.?\d{3}[,.]?\d{0,2})',
+        ]
+        
+        for pattern in blue_patterns:
+            match = re.search(pattern, html_content, re.IGNORECASE | re.DOTALL)
+            if match:
+                precio1 = _limpiar_precio_infodolar_final(match.group(1))
+                precio2 = _limpiar_precio_infodolar_final(match.group(2))
+                
+                if precio1 and precio2 and 1200 <= precio1 <= 1400 and 1200 <= precio2 <= 1400:
+                    return min(precio1, precio2), max(precio1, precio2)
+        
+        return None, None
+        
+    except Exception as e:
+        logging.error(f"Error extrayendo Blue General: {e}")
+        return None, None
+
+def _limpiar_precio_infodolar_final(precio_str):
+    """Limpiar y convertir precio a float"""
+    try:
+        if '.' in precio_str and ',' in precio_str:
+            # Formato 1.300,00 -> 1300.00
+            clean_price = precio_str.replace('.', '').replace(',', '.')
+        elif ',' in precio_str and len(precio_str.split(',')[-1]) == 2:
+            # Formato 1300,00 -> 1300.00
+            clean_price = precio_str.replace(',', '.')
+        else:
+            # Formato simple
+            clean_price = precio_str.replace('.', '').replace(',', '')
+        
+        return float(clean_price)
+    except:
+        return None
+
 def redondear_precio(precio):
     """
     Redondeo personalizado a múltiplos de 5:
