@@ -529,16 +529,33 @@ def _limpiar_precio_infodolar_final(precio_str):
 
 def redondear_precio(precio):
     """
-    Redondeo personalizado a múltiplos de 5:
-    - 1301, 1302, 1303, 1304 → 1300
-    - 1305 → 1305
-    - 1306, 1307, 1308, 1309 → 1310
-    - 1311, 1312, 1313, 1314 → 1310
-    - 1315 → 1315
-    - 1316, 1317, 1318, 1319 → 1320
+    Redondeo personalizado según fórmula de spreadsheet:
+    =SI(F18>=REDONDEAR.MENOS(F18/10,0)*10+7, REDONDEAR.MENOS(F18/10,0)*10+10, 
+       SI(F18>=REDONDEAR.MENOS(F18/10,0)*10+3.5, REDONDEAR.MENOS(F18/10,0)*10+5, 
+          REDONDEAR.MENOS(F18/10,0)*10))
+    
+    Traducido:
+    - Si precio >= (base_decena + 7) → redondear a (base_decena + 10)
+    - Si precio >= (base_decena + 3.5) → redondear a (base_decena + 5)  
+    - Sino → redondear a base_decena
+    
+    Ejemplos:
+    - 1297 → 1300 (porque 1297 >= 1290+7)
+    - 1294 → 1295 (porque 1294 >= 1290+3.5)
+    - 1292 → 1290
     """
-    # Redondear al múltiplo de 5 más cercano
-    return round(precio / 5) * 5
+    import math
+    
+    # Obtener la base de la decena (equivalente a REDONDEAR.MENOS(precio/10,0)*10)
+    base_decena = math.floor(precio / 10) * 10
+    
+    # Aplicar la lógica de la fórmula
+    if precio >= (base_decena + 7):
+        return base_decena + 10
+    elif precio >= (base_decena + 3.5):
+        return base_decena + 5
+    else:
+        return base_decena
 
 # Función para calcular el DÓLAR BLUE COTIBOT
 def calcular_dolar_blue_cotibot():
@@ -664,16 +681,27 @@ def enviar_mensaje(tipo, compra, venta, direccion):
 # Función para enviar mensaje del DÓLAR BLUE COTIBOT
 def enviar_mensaje_cotibot(compra, venta, direccion):
     try:
+        # Determinar emoji y texto de tendencia según dirección
+        if "SUBIÓ" in direccion:
+            emoji_tendencia = "📈"
+            texto_tendencia = "Subió ⬆️"
+        elif "BAJÓ" in direccion:
+            emoji_tendencia = "📉"
+            texto_tendencia = "Bajó ⬇️"
+        else:  # ESTABLE
+            emoji_tendencia = "📊"
+            texto_tendencia = "Estable ➡️"
+        
+        # Formato nuevo profesional
+        mensaje = f"📊 COTIZACIÓN DÓLAR BLUE - COTIBOT\n\n"
+        mensaje += f"🟢 Compra: ${compra:.2f}\n"
+        mensaje += f"🔴 Venta: ${venta:.2f}\n"
+        mensaje += f"{emoji_tendencia} Tendencia: {texto_tendencia}"
+        
         if MODO_TEST:
-            mensaje = f"[TEST] 💱 DÓLAR BLUE COTIBOT\n\n"
-            mensaje += f"Compra: ${compra:.2f}  |  Venta: ${venta:.2f}\n"
-            mensaje += f"Dirección: {direccion}"
-            print(f"🔍 MODO TEST - Mensaje COTIBOT que se enviaría: {mensaje}")
+            print(f"🔍 MODO TEST - Mensaje COTIBOT que se enviaría:\n{mensaje}")
             logging.info(f"[TEST] Mensaje COTIBOT que se enviaría: {mensaje}")
         else:
-            mensaje = f"💱 DÓLAR BLUE COTIBOT\n\n"
-            mensaje += f"Compra: ${compra:.2f}  |  Venta: ${venta:.2f}\n"
-            mensaje += f"Dirección: {direccion}"
             bot.send_message(CHAT_ID, mensaje)
             logging.info(f"Mensaje COTIBOT enviado: {mensaje}")
     except Exception as e:
@@ -727,15 +755,19 @@ def monitorear_precios():
             compra_cotibot, venta_cotibot = calcular_dolar_blue_cotibot()
             if compra_cotibot and venta_cotibot:
                 if ultimo_precio_compra_cotibot is not None and ultimo_precio_venta_cotibot is not None:
-                    if compra_cotibot > ultimo_precio_compra_cotibot:
-                        direccion = "🔺 SUBIÓ"
-                    elif compra_cotibot < ultimo_precio_compra_cotibot:
-                        direccion = "⬇️ BAJÓ"
-                    else:
-                        direccion = "➡️ ESTABLE"
-
+                    # Solo enviar mensaje si hay cambio real después del redondeo
                     if compra_cotibot != ultimo_precio_compra_cotibot or venta_cotibot != ultimo_precio_venta_cotibot:
+                        if compra_cotibot > ultimo_precio_compra_cotibot:
+                            direccion = "🔺 SUBIÓ"
+                        elif compra_cotibot < ultimo_precio_compra_cotibot:
+                            direccion = "⬇️ BAJÓ"
+                        else:
+                            direccion = "➡️ ESTABLE"
+
                         enviar_mensaje_cotibot(compra_cotibot, venta_cotibot, direccion)
+                        logging.info(f"📤 COTIBOT mensaje enviado: ${compra_cotibot}/${venta_cotibot} - {direccion}")
+                    else:
+                        logging.info(f"🔄 COTIBOT sin cambios: ${compra_cotibot}/${venta_cotibot} (no enviar mensaje)")
 
                 ultimo_precio_compra_cotibot = compra_cotibot
                 ultimo_precio_venta_cotibot = venta_cotibot
