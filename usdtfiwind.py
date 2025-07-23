@@ -757,15 +757,20 @@ def monitorear_precios():
                 if ultimo_precio_compra_cotibot is not None and ultimo_precio_venta_cotibot is not None:
                     # Solo enviar mensaje si hay cambio real después del redondeo
                     if compra_cotibot != ultimo_precio_compra_cotibot or venta_cotibot != ultimo_precio_venta_cotibot:
-                        if compra_cotibot > ultimo_precio_compra_cotibot:
+                        # Calcular promedio para determinar tendencia general
+                        promedio_anterior = (ultimo_precio_compra_cotibot + ultimo_precio_venta_cotibot) / 2
+                        promedio_actual = (compra_cotibot + venta_cotibot) / 2
+                        
+                        if promedio_actual > promedio_anterior:
                             direccion = "🔺 SUBIÓ"
-                        elif compra_cotibot < ultimo_precio_compra_cotibot:
+                        elif promedio_actual < promedio_anterior:
                             direccion = "⬇️ BAJÓ"
                         else:
                             direccion = "➡️ ESTABLE"
 
                         enviar_mensaje_cotibot(compra_cotibot, venta_cotibot, direccion)
                         logging.info(f"📤 COTIBOT mensaje enviado: ${compra_cotibot}/${venta_cotibot} - {direccion}")
+                        logging.info(f"🧮 Promedio anterior: {promedio_anterior:.2f} → actual: {promedio_actual:.2f}")
                     else:
                         logging.info(f"🔄 COTIBOT sin cambios: ${compra_cotibot}/${venta_cotibot} (no enviar mensaje)")
 
